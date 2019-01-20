@@ -1,7 +1,14 @@
-http://cineciax123.blogspot.com/2014/12/screen2exe-portable.html
+http://cineciax123.blogspot.com/2014/12/screen2exe-portable.html --> instalar video para grabar
 Revisar linq to entities
 
 1. Clase base para trabajar con Entity Framework-> DBcontext
 
 2.CodeFirst -->Clasico
 	    --> Database (Creas la base de datos en el sql y luego crear el modelo apartir de la base de datos existente, cualquier cambio tienes que hacerlo a nivel del sql y del c#(en cada modelo entidad)
+
+-----
+
+List -> IList ----> IEnumerable
+	     ----->Icollectionn
+
+El contexto de EF me va permitir crear el modelo 
