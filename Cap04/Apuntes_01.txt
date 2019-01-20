@@ -1,0 +1,7 @@
+http://cineciax123.blogspot.com/2014/12/screen2exe-portable.html
+Revisar linq to entities
+
+1. Clase base para trabajar con Entity Framework-> DBcontext
+
+2.CodeFirst -->Clasico
+	    --> Database (Creas la base de datos en el sql y luego crear el modelo apartir de la base de datos existente, cualquier cambio tienes que hacerlo a nivel del sql y del c#(en cada modelo entidad)
