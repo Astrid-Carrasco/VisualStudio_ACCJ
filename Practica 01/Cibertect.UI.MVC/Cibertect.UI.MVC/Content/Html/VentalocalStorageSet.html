@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../../scss/styles_end.min.css" rel="stylesheet" />
+    <script src="../../Scripts/jquery-3.3.1.min.js"></script>
+    <script src="../js/helpers.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(config);
+
+        function onBlurPrecio() {
+
+            var valor = $("#Txt_Precio").val();
+            var RE = /^\d*\.?\d*$/;
+            if (RE.test(valor)) {
+                return true;
+            } else {
+                $("#Txt_Precio").val('');
+                alert("Ingrese un precio valido");
+                return false;
+            }
+        }
+
+        function onBlurStock() {
+            var valor = $("#Txt_Stock").val();
+            if (/^([0-9])*$/.test(numero)) {
+                return true;
+            } else {
+                $("#Txt_Stock").val('');
+                alert("Ingrese stock valido");
+                return false;
+            }
+
+        }
+
+        function config() {
+            $(".Guardar").on("click", AgregarCarrito);
+
+        
+
+            var carrito = [];  
+
+            $(function () {
+                if (cibertec.helpers.GetObjectLocalStorage("RegistroCarrito")) {
+                   
+                    carrito = cibertec.helpers.GetObjectLocalStorage("RegistroCarrito");
+                    //MostrarCarrito();  
+                }
+
+                $("#tbl_Carrito").hide();
+            });
+
+
+            function AgregarCarrito() {
+                $("#tbl_NuevoProducto").hide();
+
+                debugger;
+                var x_nombres = $("#Txt_Nombres").val();
+                var x_categoria = $("#Ddl_Categoria option:selected").text();
+                var x_marca = $("#Ddl_Marca option:selected").text();
+                var x_precio = $("#Txt_Precio").val();
+                var x_stock = $("#Txt_Stock").val();
+                    
+
+                var item = { nombres: x_nombres, categoria: x_categoria, marca: x_marca, precio: x_precio, stock: x_stock };
+                carrito.push(item);
+                GuardarCarrito();
+
+                //document.location.href = "VentalocalStorageGet.html";
+                MostrarCarrito();
+            }
+
+            function GuardarCarrito() {
+                if (window.localStorage) {
+                    cibertec.helpers.SetObjectLocalStorage(carrito , "RegistroCarrito") ;
+                }
+            }
+
+            function MostrarCarrito() {
+                debugger;
+                if (carrito.length == 0) {
+                    $("#tbl_Carrito").hide(); // hide table that shows cart
+                    return;
+                }
+
+                $("#tbl_Carrito").show();
+                $("#carritoBody").empty();  // empty tbody of table 
+                for (var i in carrito) {
+                    var item = carrito[i];
+                    var row = "<tr>" +
+                        "<td>" + item.nombres + "</td>" + 
+                        "<td>" + item.precio + "</td>" +
+                        "<td>" + item.stock + "</td>" +
+                        "</tr>" ;
+                  
+                       
+                    $("#carritoBody").append(row);
+                }
+            }
+
+            $("#aVenta").click(function (e) {
+
+                e.preventDefault();
+                $("#tbl_Carrito").hide();
+                $("#tbl_NuevoProducto").show();
+               
+
+            });
+        }
+    </script>
+</head>
+<body>
+    <header>
+
+
+        <img src="../images/logo.jpg"  class="headerlogo"/>
+        <span class="spTitulo">SISTEMA DE VENTAS</span>
+
+        <nav class="dropdown">
+            <ul class="dropdown-content">
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Marcas</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a id="aVenta" href="VentalocalStorageSet.html">Ventas</a></li>
+                <li><a href="#">Compras</a></li>
+                <li><a href="#">Almacen</a></li>
+                <li><a href="#">Reporte de Ventas</a></li>
+                <li><a href="#">Reporte de Compras</a></li>
+                <li><a href="#">Stock Minimo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form  >
+            <table id="tbl_NuevoProducto">
+              <tr>
+                  <td><label for="Txt_Nombre">Nombres</label></td>
+                  <td><input type="text" id="Txt_Nombres" /></td>
+              </tr>
+                <tr>
+                    <td><label for="Ddl_Categoria">Categoria</label></td>
+                    <td>
+                         <select id="Ddl_Categoria">
+                            <option value="Impresoras">Impresoras</option>
+                            <option value="Monitores">Monitores</option>
+                            <option value="Mouse">Mouse</option>
+                        </select>
+                   </td>
+                </tr>
+                <tr>
+                    <td><label for="Ddl_Marca">Marca</label></td>
+                    <td>
+                        <select id="Ddl_Marca">
+                            <option value="Dell">Dell</option>
+                            <option value="HP">HP</option>
+                            <option value="Sony">Sony</option>
+                            <option value="AOC">AOC</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Txt_Precio">Precio</label></td>
+                    <td><input type="text" id="Txt_Precio"  onblur="onBlurPrecio()" /></td>
+                </tr>
+                <tr>
+                    <td><label for="Txt_Stock">Stock</label></td>
+                    <td><input type="text" id="Txt_Stock"  onblur="onBlurStock()"/></td>
+                </tr>
+                <tr> 
+                    <td><button type="button" class="Guardar">Grabar datos</button></td>
+                </tr>
+               
+            </table>
+
+            <table id="tbl_Carrito">
+                <thead>
+                    <tr>
+                        <td> Nombres </td>
+                        <td>Precio</td>
+                        <td>Stock</td>
+                    </tr>
+                </thead>
+
+                <tbody id="carritoBody"></tbody>
+
+
+            </table>
+        </form>
+
+    </section>
+    <footer>
+        Empresa de comercializacion de productos al por mayor y menor
+    </footer>
+   
+</body>
+</html>

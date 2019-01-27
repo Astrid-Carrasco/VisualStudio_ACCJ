@@ -1,23 +1,6 @@
 ﻿(function (cibertec) {
     cibertec.helpers =
-        {
-            replaceAll : function( string , find, replace) {
-                var result = string.replace(
-                    new RegExp(find,'g'),replace
-                );
-
-                return result;
-            },
-
-            getAniosArray : function (anioInicio) {
-                var hoy = new Date();
-                var anios = [];
-                for (i = anioInicio; i <= hoy.getFullYear(); i++) {
-                    anios.push(i); //Agregar elementos a un arreglo
-                }
-
-                return anios;
-            },
+        {            
 
             BloquearControls: function(){
                 $("input,select,button,textarea").attr("disabled", "disabled");

@@ -158,11 +158,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\RegistroController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\PersonaViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -170,23 +168,9 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\css\Site.css" />
-    <Content Include="Content\Html\Elementos.html" />
-    <Content Include="Content\Html\EventosJQuery.html" />
-    <Content Include="Content\Html\Eventos.html" />
-    <Content Include="Content\Html\Imagenes.html" />
-    <Content Include="Content\Html\Listas.html" />
-    <Content Include="Content\Html\localStorageGet.html" />
-    <Content Include="Content\Html\RegistroAJAX.html" />
-    <Content Include="Content\Html\Tablas.html" />
-    <Content Include="Content\Html\localStorageSet.html" />
-    <Content Include="Content\Html\UsoHelpers.html" />
+    <Content Include="Content\Html\VentalocalStorageSet.html" />
     <Content Include="Content\images\logo.jpg" />
     <Content Include="Content\js\helpers.js" />
-    <Content Include="Content\styles.css" />
-    <Content Include="Content\styles.min.css">
-      <DependentUpon>styles.css</DependentUpon>
-    </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -212,6 +196,12 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="scss\styles_end.css">
+      <DependentUpon>styles_end.scss</DependentUpon>
+    </Content>
+    <Content Include="scss\styles_end.min.css">
+      <DependentUpon>styles_end.css</DependentUpon>
+    </Content>
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -227,12 +217,15 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Productos.cshtml" />
-    <Content Include="scss\base\_colores_fuentes.scss" />
-    <Content Include="scss\base\_site.scss" />
-    <Content Include="scss\_styles_empresa.scss" />
+    <Content Include="scss\base\_var_colores_fuentes.scss" />
+    <Content Include="scss\base\_style_main.scss" />
+    <Content Include="scss\styles_end.scss" />
+    <Content Include="scss\helpers\_mixin.scss" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\css\" />
+    <Folder Include="Models\" />
     <Folder Include="Views\Registro\" />
   </ItemGroup>
   <ItemGroup>

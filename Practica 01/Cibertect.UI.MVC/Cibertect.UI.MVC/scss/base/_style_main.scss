@@ -16,10 +16,10 @@ nav {
     ul {
         li {
             a {
-                text-decoration: none;
+                @include mode-decoration;
 
                 &:link {
-                    text-decoration: none;
+                    @include mode-decoration;
                 }
 
                 &:visited {
@@ -34,7 +34,7 @@ nav {
     }
 }
 
- 
+
 
 .dropdown {
     position: absolute;
@@ -46,11 +46,10 @@ nav {
 }
 
 .dropdown-content {
-    text-decoration: none;
+    @include mode-decoration;
     list-style: none;
     text-align: left;
     padding-left: 12px;
-    
 }
 
 .dropdown-content li {
@@ -91,4 +90,26 @@ section {
     height: auto;
     margin-left: 10px;
     margin-top: 10px;
+}
+
+#tbl_NuevoProducto {
+    margin: 0 auto;
+}
+#tbl_Carrito {
+    margin: 0 auto;
+    width: 250px;
+    border: 1px solid #000;
+}
+#tbl_Carrito th, #tbl_Carrito td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+}
+
+#tbl_Carrito td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
 }
