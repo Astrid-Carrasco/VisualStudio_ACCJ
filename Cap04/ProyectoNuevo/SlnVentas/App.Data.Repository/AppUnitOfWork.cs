@@ -28,9 +28,12 @@ namespace App.Data.Repository
         private void CreateRepositories()
         {
             this.CategoriaRepository = new CategoriaRepository(_context);
+            this.MarcaRepository = new MarcaRepository(_context);
+
         }
 
         public ICategoriaRepository CategoriaRepository { get ; set; }
+        public IMarcaRepository MarcaRepository { get; set; }
 
         public int Complete()
         {
