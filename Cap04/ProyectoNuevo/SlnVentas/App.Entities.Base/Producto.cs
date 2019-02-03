@@ -43,6 +43,7 @@ namespace App.Entities.Base
 
         public DateTime? FechaModificacion { get; set; }
 
+        //Configuraremos en el global asax para evitar recursividad al aplicar json
         public virtual Categoria Categoria { get; set; }
 
         public virtual Marca Marca { get; set; }

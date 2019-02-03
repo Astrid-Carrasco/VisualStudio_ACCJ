@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace App.Domain.Services
 {
-   public class ProductoService : IProductoService
+   public class ProductoService : IProductoService //impkenebtacion : interfaz
     {
-        public IEnumerable<Producto> GetAll(string nombre)
+        public IEnumerable<Producto> GetAll(string nombre, int? categoriaID, int? marcaID)
         {
             List<Producto> results;
             //var includes = new List<string>();
@@ -21,52 +21,13 @@ namespace App.Domain.Services
             using (var unitOfWork = new AppUnitOfWork())
             {
                 results =   unitOfWork.ProductoRepository.GetAll(
-                    item=> item.Nombre.Contains(nombre), "Categoria,Marca"
+                    item=> item.Nombre.Contains(nombre) && (categoriaID == null || item.CategoriaID == categoriaID) && (marcaID == null || item.MarcaID == marcaID), "Categoria,Marca"
                     ).ToList();
             }
             return results;
         }
 
-        //public Producto GetById(int id)
-        //{
-        //    Producto results;
-        //    using (var unitOfWork = new AppUnitOfWork())
-        //    {
-        //        results = unitOfWork.ProductoRepository.GetBydId(id);
-        //    }
-        //    return results;
-        //}
-
-        //public bool Save(Producto entity)
-        //{
-        //    bool result = false;
-        //    try
-        //    {               
-        //        using (var unitOfWork = new AppUnitOfWork())
-        //        {
-        //            if (entity.ProductoID == 0)//Cuando es nuevo regiatro
-        //            {
-        //                unitOfWork.ProductoRepository.Add(entity);
-
-        //            }
-        //            else
-        //            {
-        //                unitOfWork.ProductoRepository.Update(entity);
-                
-        //            }
-        //            unitOfWork.Complete();
-        //        }
-                
-        //        result = true;
-        //    }
-        //    catch (Exception ex)
-        //    {
-
-        //        result = false;
-        //    }
-
-        //    return result;
-        //}
+        
 
        
 

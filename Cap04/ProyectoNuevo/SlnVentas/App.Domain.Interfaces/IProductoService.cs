@@ -9,10 +9,8 @@ namespace App.Domain.Interfaces
 {
     public interface IProductoService
     {
-        IEnumerable<Producto> GetAll(string nombre);
+        IEnumerable<Producto> GetAll(string nombre, int? categoriaID, int? marcaID);
 
-        //bool Save(Producto entity);
-
-        //Producto GetById(int id);
+       
     }
 }
