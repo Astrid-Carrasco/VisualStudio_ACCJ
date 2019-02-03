@@ -21,5 +21,6 @@ C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Data.DataBase\bin\Debug\App.Entities.Base.pdb
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Data.DataBase\bin\Debug\EntityFramework.xml
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Data.DataBase\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Data.DataBase\obj\Debug\App.Data.DataBase.csprojResolveAssemblyReference.cache
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Data.DataBase\obj\Debug\App.Data.DataBase.dll
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Data.DataBase\obj\Debug\App.Data.DataBase.pdb

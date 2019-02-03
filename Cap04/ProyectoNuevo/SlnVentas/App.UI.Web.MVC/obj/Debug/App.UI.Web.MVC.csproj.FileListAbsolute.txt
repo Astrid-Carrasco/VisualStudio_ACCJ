@@ -116,6 +116,7 @@ C:\WebVisualStudio2017\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.UI.We
 C:\WebVisualStudio2017\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.UI.Web.MVC\bin\App.Data.DataBase.dll.config
 C:\WebVisualStudio2017\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.UI.Web.MVC\bin\EntityFramework.SqlServer.dll
 C:\WebVisualStudio2017\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.UI.Web.MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.UI.Web.MVC\obj\Debug\App.UI.Web.MVC.csprojResolveAssemblyReference.cache
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.UI.Web.MVC\bin\ApplicationInsights.config
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.UI.Web.MVC\bin\App.UI.Web.MVC.dll.config
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.UI.Web.MVC\bin\App.UI.Web.MVC.dll
@@ -229,6 +230,5 @@ C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.UI.Web.MVC\bin\es\System.Web.WebPages.resources.dll
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.UI.Web.MVC\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.UI.Web.MVC\bin\es\System.Web.WebPages.Razor.resources.dll
-C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.UI.Web.MVC\obj\Debug\App.UI.Web.MVC.csprojResolveAssemblyReference.cache
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.UI.Web.MVC\obj\Debug\App.UI.Web.MVC.dll
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.UI.Web.MVC\obj\Debug\App.UI.Web.MVC.pdb

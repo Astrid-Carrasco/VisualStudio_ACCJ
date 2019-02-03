@@ -52,6 +52,7 @@
     <Compile Include="GenericRepository.cs" />
     <Compile Include="MarcaRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnidadMedidaRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\App.Data.DataBase\App.Data.DataBase.csproj">

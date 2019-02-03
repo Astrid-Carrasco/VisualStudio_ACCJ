@@ -19,6 +19,7 @@ C:\WebVisualStudio2017\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Domai
 C:\WebVisualStudio2017\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Domain.Services\obj\Debug\App.Domain.Services.csproj.CopyComplete
 C:\WebVisualStudio2017\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Domain.Services\obj\Debug\App.Domain.Services.dll
 C:\WebVisualStudio2017\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Domain.Services\obj\Debug\App.Domain.Services.pdb
+C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Domain.Services\obj\Debug\App.Domain.Services.csprojResolveAssemblyReference.cache
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Domain.Services\bin\Debug\App.Domain.Services.dll
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Domain.Services\bin\Debug\App.Domain.Services.pdb
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Domain.Services\bin\Debug\App.Data.Repository.dll
@@ -35,6 +36,5 @@ C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Domain.Services\bin\Debug\EntityFramework.xml
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Domain.Services\bin\Debug\App.Data.DataBase.pdb
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Domain.Services\bin\Debug\App.Data.DataBase.dll.config
-C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Domain.Services\obj\Debug\App.Domain.Services.csprojResolveAssemblyReference.cache
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Domain.Services\obj\Debug\App.Domain.Services.dll
 C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap04\ProyectoNuevo\SlnVentas\App.Domain.Services\obj\Debug\App.Domain.Services.pdb
