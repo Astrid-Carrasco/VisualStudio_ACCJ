@@ -1,0 +1,38 @@
+﻿@model IEnumerable<App.Entities.Base.Producto>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Lista de Productos</h2>
+
+@using (Html.BeginForm())
+{
+    <input name="filterByName" class="form-control" value="@ViewBag.filterByName"/>
+    <br />
+    <button class="btn btn-info btn-sm">Buscar</button>
+}
+
+<table class="table">
+    <tr>
+        <td>Código</td>
+        <td>Nombre</td>
+        <td>Categoria </td>
+        <td>Marca</td>
+        <td>Precio Mayor</td>
+        <td>Precio Menor</td>
+        <td>Stock Actual</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ProductoCode</td>
+            <td>@item.Nombre</td>
+            <td>@item.Categoria.Nombre</td>
+            <td>@item.Marca.Nombre</td>
+            <td>@item.PrecioMayor</td>
+            <td>@item.PrecioMenor</td>
+            <td>@item.StockActual</td>
+        </tr>
+        }
+</table>

@@ -14,6 +14,8 @@ namespace App.Domain.Services
         public IEnumerable<Categoria> GetAll(string nombre)
         {
             List<Categoria> results;
+           
+
             using (var unitOfWork = new AppUnitOfWork())
             {
                 results =   unitOfWork.CategoriaRepository.GetAll(
