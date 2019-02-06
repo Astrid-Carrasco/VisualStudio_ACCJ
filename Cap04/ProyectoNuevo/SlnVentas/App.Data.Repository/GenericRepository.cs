@@ -28,18 +28,29 @@ namespace App.Data.Repository
            return this.context.Set<TEntity>().Count();
         }
 
-        public IEnumerable<TEntity> GetAll(Expression<Func<TEntity, bool>> predicate = null  )
+        //El include, incluye las tablas que estan relacionadas a la tabla principal
+
+        public IEnumerable<TEntity> GetAll(Expression<Func<TEntity, bool>> predicate = null , string includes=null )
         {
             var result = new List<TEntity>();
+            IQueryable<TEntity> query= this.context.Set<TEntity>();
+
+            //Para tablas relacionadas
+            if (includes != null)
+            {
+                foreach (var tableInclude in includes.Split(','))//foreach para incluir muchas tablas
+                {
+                   query=  query.Include(tableInclude);
+                }
+            }
+
+            //Esto es para wheres para filtros
             if (predicate != null)
             {
-                result = this.context.Set<TEntity>().Where(predicate).ToList();
+                query = query.Where(predicate);
             }
-            else
-            {
-                result = this.context.Set<TEntity>().ToList();
-            }
-            return result;
+             
+            return query.ToList();
         }
 
         public TEntity GetBydId(int id)

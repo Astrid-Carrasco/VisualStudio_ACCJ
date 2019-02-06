@@ -157,6 +157,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Mantenimientos\CategoriaController.cs" />
     <Compile Include="Controllers\Mantenimientos\MarcaController.cs" />
+    <Compile Include="Controllers\Mantenimientos\ProductoController.cs" />
     <Compile Include="Controllers\Mantenimientos\UnidadMedidaController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -188,6 +189,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\mustache.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -208,6 +210,10 @@
     <Content Include="Views\Marca\Index.cshtml" />
     <Content Include="Views\UnidadMedida\Create.cshtml" />
     <Content Include="Views\UnidadMedida\Index.cshtml" />
+    <Content Include="Views\Producto\Index.cshtml" />
+    <Content Include="Views\Producto\Index2.cshtml" />
+    <Content Include="Views\Producto\_Index2Resultado.cshtml" />
+    <Content Include="Views\Producto\Index3.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
