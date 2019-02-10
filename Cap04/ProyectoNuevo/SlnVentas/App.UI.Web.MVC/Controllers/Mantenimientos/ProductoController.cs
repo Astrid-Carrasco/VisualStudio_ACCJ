@@ -14,12 +14,14 @@ namespace App.UI.Web.MVC.Controllers.Mantenimientos
         private readonly ProductoService productoServices;
         private readonly CategoriaService categoriaServices;
         private readonly MarcaService marcaServices;
+        private readonly UnidadMedidaService unidadMedidaServices;
 
         public ProductoController()
         {
             productoServices = new ProductoService();
             categoriaServices = new CategoriaService();
             marcaServices = new MarcaService();
+            unidadMedidaServices = new UnidadMedidaService();
         }
 
         // GET: Producto//con un string no habria problemas ya que ello soportan nulos int? filterByCategoria, hay que ponerlo en este caso al entero de manera explicita que soporte nulos
@@ -75,6 +77,46 @@ namespace App.UI.Web.MVC.Controllers.Mantenimientos
             var model2 = JsonConvert.SerializeObject(model, Formatting.Indented, config);
 
             return Json( model2);
+        }
+
+
+
+        public ActionResult Create()
+        {
+            ViewBag.Categorias = categoriaServices.GetAll("");
+            ViewBag.Marcas = marcaServices.GetAll("");
+            ViewBag.UnidadesMedidas = unidadMedidaServices.GetAll("");
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Create(Producto model)
+        {
+            Guid obj = Guid.NewGuid();
+            model.FechaCreacion = DateTime.Now;
+            model.UsuarioCreador = obj;
+            var result = productoServices.Save(model);
+            return RedirectToAction("Index");
+        }
+
+        public ActionResult Edit(int id)
+        {
+            ViewBag.Categorias = categoriaServices.GetAll("");
+            ViewBag.Marcas = marcaServices.GetAll("");
+            ViewBag.UnidadesMedidas = unidadMedidaServices.GetAll("");
+            var model = productoServices.GetById(id);
+            return View("Create", model);//Reutilizando la vista create para la edicion
+        }
+
+        [HttpPost]
+        public ActionResult Edit(Producto model)
+        {
+
+            Guid obj = Guid.NewGuid();
+            model.FechaModificacion = DateTime.Now;
+            model.UsuarioModificador = obj;
+            var result = productoServices.Save(model);
+            return RedirectToAction("Index");
         }
 
     }

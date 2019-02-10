@@ -19,18 +19,25 @@ namespace App.Entities.Base
         [StringLength(100)]
         public string Nombre { get; set; }
 
+        [Required]
         public int CategoriaID { get; set; }
 
+        [Required]
         public int MarcaID { get; set; }
 
+        [Required]
         public int UnidadMedidaID { get; set; }
 
+        [Required]
         public decimal PrecioMayor { get; set; }
 
+        [Required]
         public decimal PrecioMenor { get; set; }
 
+        [Required]
         public decimal StockActual { get; set; }
 
+        [Required]
         public decimal StockMinimo { get; set; }
 
         public bool Estado { get; set; }
