@@ -11,6 +11,8 @@ namespace App.Domain.Interfaces
     {
         IEnumerable<Producto> GetAll(string nombre, int? categoriaID, int? marcaID);
 
-       
+        bool Save(Producto entity);
+
+        Producto GetById(int id);
     }
 }
