@@ -21,7 +21,7 @@ namespace App.Domain.Services
             using (var unitOfWork = new AppUnitOfWork())
             {
                 results =   unitOfWork.ProductoRepository.GetAll(
-                    item=> item.Nombre.Contains(nombre) && (categoriaID == null || item.CategoriaID == categoriaID) && (marcaID == null || item.MarcaID == marcaID), "Categoria,Marca"
+                    item=> item.Nombre.Contains(nombre) && (categoriaID == null || item.CategoriaID == categoriaID || categoriaID == 0) && (marcaID == null || item.MarcaID == marcaID || marcaID == 0), "Categoria,Marca"
                     ).ToList();
             }
             return results;

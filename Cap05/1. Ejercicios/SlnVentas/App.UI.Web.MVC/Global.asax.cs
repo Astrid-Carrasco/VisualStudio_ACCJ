@@ -18,6 +18,10 @@ namespace App.UI.Web.MVC
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
+            //Configurando el componente de Log4Net
+            log4net.Config.XmlConfigurator.Configure();
+
+
             JsonConvert.DefaultSettings = () => new JsonSerializerSettings
             {
                 Formatting = Formatting.Indented,

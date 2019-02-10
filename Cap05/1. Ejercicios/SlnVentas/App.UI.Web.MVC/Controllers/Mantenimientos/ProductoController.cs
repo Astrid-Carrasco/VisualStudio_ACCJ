@@ -6,15 +6,22 @@ using System.Web;
 using System.Web.Mvc;
 using App.Entities.Base;
 using Newtonsoft.Json;
+using App.UI.Web.MVC.ActionFilters;
+using App.UI.Web.MVC.Filters;
+using System.Reflection;
+using App.UI.Web.MVC.Models.ViewModels;
 
 namespace App.UI.Web.MVC.Controllers.Mantenimientos
 {
-    public class ProductoController : Controller
+   
+    public class ProductoController : BaseController//Hereda de la clase base base controler para guardar log
     {
+         
         private readonly ProductoService productoServices;
         private readonly CategoriaService categoriaServices;
         private readonly MarcaService marcaServices;
         private readonly UnidadMedidaService unidadMedidaServices;
+         
 
         public ProductoController()
         {
@@ -41,11 +48,21 @@ namespace App.UI.Web.MVC.Controllers.Mantenimientos
         //**CON AJAX
         public ActionResult Index2(string filterByName, int? filterByCategoria, int? filterByMarca)
         {
-            //Como ya no vamos a recargar toda la pagina ya no necesitamos asignar el valor a la cada de texto filterByName, esta caja ya no se va limpiar
-            ViewBag.Categorias = categoriaServices.GetAll("");
-            ViewBag.Marcas = marcaServices.GetAll("");
-                        
+            try
+            {
+                //Como ya no vamos a recargar toda la pagina ya no necesitamos asignar el valor a la cada de texto filterByName, esta caja ya no se va limpiar
+                ViewBag.Categorias = categoriaServices.GetAll("");
+                ViewBag.Marcas = marcaServices.GetAll("");
+
+                throw new Exception("Lanzando un error simulado");
+
+            }
+            catch (Exception ex)
+            {
+                log.Error(ex);
+            }
             return View();
+
         }
 
         //**VIEWPARTIAL AJAX
@@ -117,6 +134,18 @@ namespace App.UI.Web.MVC.Controllers.Mantenimientos
             model.UsuarioModificador = obj;
             var result = productoServices.Save(model);
             return RedirectToAction("Index");
+        }
+
+
+        public ActionResult IndexVM(ProductoSearchViewModel model)
+        {
+            model.categorias = categoriaServices.GetAll("").ToList() ;
+            model.marcas = marcaServices.GetAll("").ToList();
+
+            var filterByName = string.IsNullOrWhiteSpace(model.filterByName) ? "" : model.filterByName.Trim();
+
+            model.productos = productoServices.GetAll(filterByName, model.filterByCategoria, model.filterByMarca).ToList();
+            return View(model);
         }
 
     }
