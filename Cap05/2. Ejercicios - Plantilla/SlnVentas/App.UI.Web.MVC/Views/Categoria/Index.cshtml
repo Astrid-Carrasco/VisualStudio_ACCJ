@@ -6,34 +6,34 @@
 
 <h2>Lista de Categorias</h2>
 
-@*Sin usar html helper*@ 
+@*Sin usar html helper*@
 @*<a class="btn btn-success btn-md" href="/Categoria/Create">Nueva Categoria</a>*@
 
 @*usando html helper*@
-@Html.ActionLink("Nueva Categoria", "Create","Categoria",new { @class= "btn btn-success btn-md" })
+@*@Html.ActionLink("Nueva Categoria", "Create","Categoria",new { @class= "btn btn-success btn-md" })*@
 
-<p></p>
-<table class="table">
-    <tr>
-        <th>Nombre</th>
-        <th>Descripción</th>
-        <th></th>
-    </tr>
+<a href="#" onclick="app.helpers.showModal('CategoriaCreatePopup','@Url.Action("Create")')" class="btn btn-success btn-md">Nuevo</a>
 
-    @foreach (var item in Model)
+@using (Ajax.BeginForm("Buscar", "Categoria",
+    new AjaxOptions
     {
-        <tr>
-            <td>@item.Nombre</td>
-            <td>@item.Descripcion</td>
-            <td>
-                <a href="@Url.Action("Edit", new { id = item.CategoriaID})">
-                    <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> 
-                </a>
-          
-            </td>
-        </tr>
+        HttpMethod = "POST",
+        InsertionMode = InsertionMode.Replace,
+        UpdateTargetId = "listado"
     }
+    ))
+{
+    <p>
+        <input name="filtroPorNombre" />
+        <button type="submit" class="Buscar">Buscar</button>
+    </p>
+
+}
 
 
-</table>
+<div id="listado">
+    @Html.Partial("_IndexListado", Model)
+</div>
 
+
+@Modal.CreateModal("Crear categoria", "CategoriaCreatePopup")

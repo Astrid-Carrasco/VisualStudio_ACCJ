@@ -738,6 +738,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\App\common\helpers.js" />
+    <Content Include="Scripts\App\views\CategoriaView.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -758,12 +760,15 @@
     <Content Include="Content\themes\main\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\themes\main\bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\themes\main\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="App_Code\Modal.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
@@ -797,8 +802,10 @@
     <Content Include="Views\Producto\Create.cshtml" />
     <Content Include="Views\Producto\IndexVM.cshtml" />
     <Content Include="Views\Shared\_LayoutMain.cshtml" />
+    <Content Include="Views\Categoria\_IndexListado.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Code\HtmlHelpers\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>

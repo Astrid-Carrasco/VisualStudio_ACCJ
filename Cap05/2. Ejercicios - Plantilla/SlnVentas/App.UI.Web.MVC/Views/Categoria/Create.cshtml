@@ -16,7 +16,9 @@
 @*Con Html Helpers*@
  @*cuando esta la palabra for es que podemos acceder al modelo*@
 
-@using (Html.BeginForm())
+@*cuando termine correctamente con el OnSuccess, ejecutara una funcion*@
+
+@using (Ajax.BeginForm("Create","Categoria",new AjaxOptions() { OnSuccess =  "app.CategoriaView.RefreshLista()" } ))
 {
 
     <div class="form-horizontal">
@@ -53,6 +55,8 @@
 @*Gracias al RenderSection del layout podremos definir estas secciones que nos permiten colocar scripts unicamente para el formulario*@
 @section scriptsAdicionales{
     @Scripts.Render("~/bundles/jqueryval");
+
+    
 }
 
 

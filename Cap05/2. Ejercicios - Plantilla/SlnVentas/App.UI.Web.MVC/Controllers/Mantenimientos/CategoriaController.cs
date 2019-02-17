@@ -27,9 +27,18 @@ namespace App.UI.Web.MVC.Controllers.Mantenimientos
             return View(model);
         }
 
+
+        public ActionResult Buscar(string filtroPorNombre)
+        {
+            filtroPorNombre = (filtroPorNombre != null ? filtroPorNombre : "");
+            var model = categoriaServices.GetAll(filtroPorNombre);
+            return PartialView("_IndexListado", model );
+        }
+
         public ActionResult Create()
         {
-            return View();
+            //Ya que vamos a trabajar con modal solo retornaremos esa parte de la vista ya no con el layout por eso sera partial view
+            return PartialView();
         }
 
         //[HttpPost]
