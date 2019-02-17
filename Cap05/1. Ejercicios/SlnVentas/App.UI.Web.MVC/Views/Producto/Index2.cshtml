@@ -1,5 +1,6 @@
 ﻿@model IEnumerable<App.Entities.Base.Producto>
 
+
 @{
     ViewBag.Title = "Index";
 }
@@ -9,10 +10,10 @@
 @using (Html.BeginForm())
 {
     <label>Buscar por Nombre</label>
-    <input id="filterByName" name="filterByName"  class="form-control" value="@ViewBag.filterByName" />
+    <input id="filterByName" name="filterByName" class="form-control" value="@ViewBag.filterByName" />
     <br />
     <label>Buscar por Categoria</label>
-    
+
     @Html.DropDownList("filterByCategoria", new SelectList(ViewBag.Categorias, "CategoriaID", "Nombre"), "Todos", new { @class = "form-control" })
 
     <br />
@@ -26,11 +27,11 @@
 
 <div id="resultado">
 
-</div> 
+</div>
 
 @section scriptsAdicionales
 {
- <script type="text/javascript">
+    <script type="text/javascript">
      $(document).ready(configInit);
 
      function configInit() {
@@ -51,5 +52,5 @@
              }
          )
      }
- </script>   
+    </script>
 }    
