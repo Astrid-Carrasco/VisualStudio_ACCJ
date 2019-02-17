@@ -23,8 +23,9 @@ namespace App.UI.Web.MVC.Controllers.Mantenimientos
         public ActionResult Index()
         {
             //El modelo vendria a ser una lista, una entidad, por lo tanto a nivel de la vista debe recepcionar el mismo modelo que se envia sea entidad o lista
-            var model = categoriaServices.GetAll("");
-            return View(model);
+            //var model = categoriaServices.GetAll("");
+            //return View(model);
+            return View();
         }
 
 
