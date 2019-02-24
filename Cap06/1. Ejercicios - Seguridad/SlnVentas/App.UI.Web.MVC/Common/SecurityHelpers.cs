@@ -67,5 +67,44 @@ namespace App.UI.Web.MVC.Common
             return HttpContext.Current.User.IsInRole("Admin");
         }
 
+
+        /* PBKDF2 Encriptamiento
+         * string password = "123456";
+             using (var deriveBytes = new Rfc2898DeriveBytes(password,20))
+             {
+                 byte[] salt = deriveBytes.Salt;
+                 byte[] key = deriveBytes.GetBytes(20);
+
+                 //Estos dos datos guardar en base de datos
+                 string encodeSalt = Convert.ToBase64String(salt);
+                 string encodeKey = Convert.ToBase64String(key);
+             }
+
+             //Database
+             string encodeSaltDB = "fBbQ+KL9ciUpGRUqtqd3cSDFZLA=";
+             string encodeKeyDB = "XBdH/zcCbifvfem0nRLfMwX1s04=";           
+
+             byte[] saltDB = Convert.FromBase64String(encodeSaltDB);
+             byte[] keyDB = Convert.FromBase64String(encodeKeyDB);
+
+             string passwordLogin = "123456";
+
+             using (var deriveBytes = new Rfc2898DeriveBytes(passwordLogin, saltDB))
+             {
+                 byte[] testkey = deriveBytes.GetBytes(20);
+                 if (testkey.SequenceEqual(keyDB))
+                 {
+                     MessageBox.Show("Password Valido");
+                 }
+             }*/
+
+
+
+
+
+
+
+
+
     }
 }
