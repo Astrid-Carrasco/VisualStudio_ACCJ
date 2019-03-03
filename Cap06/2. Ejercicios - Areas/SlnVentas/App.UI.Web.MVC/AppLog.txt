@@ -1490,3 +1490,772 @@ Opinion
    en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
    en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
    en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:54:03,573 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:54:03
+2019-03-03 13:54:03,594 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:54:03
+2019-03-03 13:54:53,145 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: index,Hora de inicio: 3/03/2019 13:54:53
+2019-03-03 13:54:53,397 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: index,Hora de fin: 3/03/2019 13:54:53
+2019-03-03 13:55:38,581 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:38
+2019-03-03 13:55:38,581 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:38
+2019-03-03 13:55:38,894 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:38
+2019-03-03 13:55:38,894 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:38
+2019-03-03 13:55:39,035 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:39
+2019-03-03 13:55:39,035 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:39
+2019-03-03 13:55:39,210 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:39
+2019-03-03 13:55:39,213 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:39
+2019-03-03 13:55:41,046 [18] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:41
+2019-03-03 13:55:41,046 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:41
+2019-03-03 13:55:41,104 [18] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:41
+2019-03-03 13:55:41,106 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:41
+2019-03-03 13:55:41,162 [19] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:41
+2019-03-03 13:55:41,163 [19] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:41
+2019-03-03 13:55:41,346 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:41
+2019-03-03 13:55:44,068 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:44
+2019-03-03 13:55:44,083 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:44
+2019-03-03 13:55:45,186 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:45
+2019-03-03 13:55:48,790 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:48
+2019-03-03 13:55:48,793 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:48
+2019-03-03 13:55:48,797 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:48
+2019-03-03 13:55:48,797 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:48
+2019-03-03 13:55:48,884 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:48
+2019-03-03 13:55:48,888 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:48
+2019-03-03 13:55:48,906 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:48
+2019-03-03 13:55:48,910 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:48
+2019-03-03 13:55:48,910 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:48
+2019-03-03 13:55:48,913 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:48
+2019-03-03 13:55:48,974 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:48
+2019-03-03 13:55:48,978 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:48
+2019-03-03 13:55:48,980 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:48
+2019-03-03 13:55:48,980 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:48
+2019-03-03 13:55:48,987 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:48
+2019-03-03 13:55:48,990 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:48
+2019-03-03 13:55:48,999 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:48
+2019-03-03 13:55:48,999 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:48
+2019-03-03 13:55:49,076 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,083 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,083 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,085 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,099 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,099 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,165 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,176 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,177 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,177 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,184 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,188 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,278 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,280 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,281 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,281 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,292 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,294 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,383 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,388 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,389 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,389 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,395 [18] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,406 [18] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,410 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,410 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,476 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,482 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,483 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,483 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,493 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,495 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,574 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,578 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,579 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,579 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,586 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,589 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,594 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,594 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,754 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,754 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,871 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,871 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,888 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,888 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,966 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,966 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,973 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,973 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:49,981 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:49
+2019-03-03 13:55:49,982 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:49
+2019-03-03 13:55:50,074 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:50
+2019-03-03 13:55:50,074 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:50
+2019-03-03 13:55:50,086 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:50
+2019-03-03 13:55:50,086 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:50
+2019-03-03 13:55:50,166 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:50
+2019-03-03 13:55:50,166 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:50
+2019-03-03 13:55:50,179 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:50
+2019-03-03 13:55:50,179 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:50
+2019-03-03 13:55:50,274 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:50
+2019-03-03 13:55:50,274 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:50
+2019-03-03 13:55:50,288 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:50
+2019-03-03 13:55:50,288 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:50
+2019-03-03 13:55:50,363 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:50
+2019-03-03 13:55:50,363 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:50
+2019-03-03 13:55:50,374 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:50
+2019-03-03 13:55:50,374 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:50
+2019-03-03 13:55:50,382 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:50
+2019-03-03 13:55:50,382 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:50
+2019-03-03 13:55:50,463 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:50
+2019-03-03 13:55:50,463 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:50
+2019-03-03 13:55:50,470 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:50
+2019-03-03 13:55:50,470 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:50
+2019-03-03 13:55:50,487 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:50
+2019-03-03 13:55:50,488 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:50
+2019-03-03 13:55:52,095 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:52
+2019-03-03 13:55:52,099 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:52
+2019-03-03 13:55:52,102 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:52
+2019-03-03 13:55:52,106 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:52
+2019-03-03 13:55:52,109 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:52
+2019-03-03 13:55:54,087 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:54
+2019-03-03 13:55:54,090 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:54
+2019-03-03 13:55:54,091 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:54
+2019-03-03 13:55:54,098 [19] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:54
+2019-03-03 13:55:54,100 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:54
+2019-03-03 13:55:54,100 [19] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:54
+2019-03-03 13:55:54,890 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:54
+2019-03-03 13:55:54,893 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:54
+2019-03-03 13:55:54,896 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:54
+2019-03-03 13:55:54,901 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:54
+2019-03-03 13:55:55,302 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:55
+2019-03-03 13:55:55,304 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:55
+2019-03-03 13:55:55,305 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:55
+2019-03-03 13:55:55,312 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:55
+2019-03-03 13:55:55,315 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:55
+2019-03-03 13:55:55,316 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:55
+2019-03-03 13:55:55,618 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:55
+2019-03-03 13:55:55,620 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:55
+2019-03-03 13:55:55,623 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:55
+2019-03-03 13:55:55,627 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:55
+2019-03-03 13:55:55,855 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:55
+2019-03-03 13:55:55,857 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:55
+2019-03-03 13:55:55,858 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:55
+2019-03-03 13:55:55,865 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:55
+2019-03-03 13:55:55,868 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:55
+2019-03-03 13:55:55,869 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:55
+2019-03-03 13:55:56,065 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:55:56
+2019-03-03 13:55:56,069 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:55:56
+2019-03-03 13:55:56,073 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:55:56
+2019-03-03 13:55:56,076 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:55:56
+2019-03-03 13:56:04,171 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:56:04
+2019-03-03 13:56:04,173 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:56:04
+2019-03-03 13:56:04,174 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:56:04
+2019-03-03 13:56:04,182 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:56:04
+2019-03-03 13:56:04,183 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:56:04
+2019-03-03 13:56:04,184 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:56:04
+2019-03-03 13:56:04,239 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:56:04
+2019-03-03 13:56:04,275 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:56:04
+2019-03-03 13:56:04,276 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:56:04
+2019-03-03 13:56:04,278 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:56:04
+2019-03-03 13:56:04,280 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:56:04
+2019-03-03 13:56:04,286 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:56:04
+2019-03-03 13:56:04,289 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:56:04
+2019-03-03 13:56:04,290 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:56:04
+2019-03-03 13:56:04,331 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:56:04
+2019-03-03 13:56:04,369 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:56:04
+2019-03-03 13:56:04,372 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:56:04
+2019-03-03 13:56:04,383 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:56:04
+2019-03-03 13:56:04,432 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:56:04
+2019-03-03 13:56:04,475 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:56:04
+2019-03-03 13:56:04,477 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:56:04
+2019-03-03 13:56:04,485 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:56:04
+2019-03-03 13:56:04,488 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:56:04
+2019-03-03 13:56:04,606 [14] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:56:04,702 [16] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:56:04,713 [13] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:56:04,817 [12] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:56:04,833 [14] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:56:04,884 [16] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:56:04,896 [13] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:56:04,961 [13] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:56:04,974 [30] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:56:05,026 [14] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:56:05,037 [17] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:56:05,117 [14] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:56:05,129 [13] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:56:05,211 [14] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:56:05,283 [16] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:56:05,292 [12] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:56:05,300 [13] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:56:05,368 [12] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:56:05,386 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:56:05
+2019-03-03 13:56:05,420 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:56:05
+2019-03-03 13:56:05,459 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:56:05
+2019-03-03 13:56:07,558 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:56:07
+2019-03-03 13:56:07,558 [16] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Los datos de cadena o binarios se truncarían.
+Se terminó la instrucción.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   en System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   en System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   en System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   en System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   en System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   en System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   en System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   en System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   en System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   en System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   en System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   en System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   en System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   en System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Data.Entity.Internal.InternalContext.SaveChanges()
+   en System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   en System.Data.Entity.DbContext.SaveChanges()
+   en App.Data.Repository.AppUnitOfWork.Complete() en C:\WebVisualStudio2017\VisualStudio_ACCJ\Cap06\2. Ejercicios - Areas\SlnVentas\App.Data.Repository\AppUnitOfWork.cs:línea 47
+   en App.Domain.Services.ComentarioService.Guardar(Comentario entity) en C:\WebVisualStudio2017\VisualStudio_ACCJ\Cap06\2. Ejercicios - Areas\SlnVentas\App.Domain.Services\ComentarioService.cs:línea 32
+   en App.UI.Web.MVC.Controllers.Mantenimientos.ComentarioController.Registrar(ComentarioViewModel model) en C:\WebVisualStudio2017\VisualStudio_ACCJ\Cap06\2. Ejercicios - Areas\SlnVentas\App.UI.Web.MVC\Controllers\Mantenimientos\ComentarioController.cs:línea 48
+   en lambda_method(Closure , ControllerBase , Object[] )
+   en System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   en System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2019-03-03 13:56:07,633 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:56:07
+2019-03-03 13:56:07,638 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:56:07
+2019-03-03 13:56:07,647 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:56:07
+2019-03-03 14:00:18,947 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:18
+2019-03-03 14:00:18,947 [16] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Los datos de cadena o binarios se truncarían.
+Se terminó la instrucción.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   en System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   en System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   en System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   en System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   en System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   en System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   en System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   en System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   en System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   en System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   en System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   en System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   en System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   en System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Data.Entity.Internal.InternalContext.SaveChanges()
+   en System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   en System.Data.Entity.DbContext.SaveChanges()
+   en App.Data.Repository.AppUnitOfWork.Complete() en C:\WebVisualStudio2017\VisualStudio_ACCJ\Cap06\2. Ejercicios - Areas\SlnVentas\App.Data.Repository\AppUnitOfWork.cs:línea 47
+   en App.Domain.Services.ComentarioService.Guardar(Comentario entity) en C:\WebVisualStudio2017\VisualStudio_ACCJ\Cap06\2. Ejercicios - Areas\SlnVentas\App.Domain.Services\ComentarioService.cs:línea 32
+   en App.UI.Web.MVC.Controllers.Mantenimientos.ComentarioController.Registrar(ComentarioViewModel model) en C:\WebVisualStudio2017\VisualStudio_ACCJ\Cap06\2. Ejercicios - Areas\SlnVentas\App.UI.Web.MVC\Controllers\Mantenimientos\ComentarioController.cs:línea 48
+   en lambda_method(Closure , ControllerBase , Object[] )
+   en System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   en System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2019-03-03 14:00:18,949 [34] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:18
+2019-03-03 14:00:18,973 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:18
+2019-03-03 14:00:18,974 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:18
+2019-03-03 14:00:18,979 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:18
+2019-03-03 14:00:19,007 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:19
+2019-03-03 14:00:19,028 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:19
+2019-03-03 14:00:19,028 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:19
+2019-03-03 14:00:19,028 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:19
+2019-03-03 14:00:19,029 [34] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:19
+2019-03-03 14:00:19,068 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:19
+2019-03-03 14:00:22,983 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:22
+2019-03-03 14:00:22,983 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:22
+2019-03-03 14:00:23,093 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:23
+2019-03-03 14:00:23,093 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:23
+2019-03-03 14:00:23,248 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:23
+2019-03-03 14:00:23,252 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:23
+2019-03-03 14:00:25,277 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:25
+2019-03-03 14:00:25,290 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:25
+2019-03-03 14:00:25,358 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:25
+2019-03-03 14:00:25,362 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:25
+2019-03-03 14:00:25,373 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:25
+2019-03-03 14:00:25,373 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:25
+2019-03-03 14:00:25,446 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:25
+2019-03-03 14:00:25,450 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:25
+2019-03-03 14:00:25,551 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:25
+2019-03-03 14:00:25,555 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:25
+2019-03-03 14:00:29,392 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:29
+2019-03-03 14:00:29,399 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:29
+2019-03-03 14:00:29,416 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:29
+2019-03-03 14:00:29,417 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:29
+2019-03-03 14:00:29,482 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:29
+2019-03-03 14:00:29,488 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:29
+2019-03-03 14:00:29,489 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:29
+2019-03-03 14:00:29,489 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:29
+2019-03-03 14:00:29,566 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:29
+2019-03-03 14:00:29,570 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:29
+2019-03-03 14:00:29,571 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:29
+2019-03-03 14:00:29,571 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:29
+2019-03-03 14:00:29,592 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:29
+2019-03-03 14:00:29,593 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:29
+2019-03-03 14:00:29,655 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:29
+2019-03-03 14:00:29,660 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:29
+2019-03-03 14:00:29,662 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:29
+2019-03-03 14:00:29,662 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:29
+2019-03-03 14:00:29,776 [30] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:29
+2019-03-03 14:00:29,785 [30] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:29
+2019-03-03 14:00:29,787 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:29
+2019-03-03 14:00:29,788 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:29
+2019-03-03 14:00:29,865 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:29
+2019-03-03 14:00:29,870 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:29
+2019-03-03 14:00:29,871 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:29
+2019-03-03 14:00:29,871 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:29
+2019-03-03 14:00:29,884 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:29
+2019-03-03 14:00:29,884 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:29
+2019-03-03 14:00:29,884 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:29
+2019-03-03 14:00:29,887 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:29
+2019-03-03 14:00:29,965 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:29
+2019-03-03 14:00:29,968 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:29
+2019-03-03 14:00:29,969 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:29
+2019-03-03 14:00:29,969 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:29
+2019-03-03 14:00:29,988 [33] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:29
+2019-03-03 14:00:29,997 [33] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:29
+2019-03-03 14:00:29,999 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:29
+2019-03-03 14:00:29,999 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:29
+2019-03-03 14:00:30,065 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:30
+2019-03-03 14:00:30,069 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:30
+2019-03-03 14:00:30,071 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:30
+2019-03-03 14:00:30,071 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:30
+2019-03-03 14:00:30,081 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:30
+2019-03-03 14:00:30,085 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:30
+2019-03-03 14:00:30,086 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:30
+2019-03-03 14:00:30,086 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:30
+2019-03-03 14:00:30,181 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:30
+2019-03-03 14:00:30,187 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:30
+2019-03-03 14:00:30,188 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:30
+2019-03-03 14:00:30,188 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:30
+2019-03-03 14:00:30,288 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:30
+2019-03-03 14:00:30,292 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:30
+2019-03-03 14:00:30,293 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:30
+2019-03-03 14:00:30,293 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:30
+2019-03-03 14:00:30,304 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:30
+2019-03-03 14:00:30,305 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 14:00:30
+2019-03-03 14:00:30,305 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 14:00:30
+2019-03-03 14:00:30,308 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:30
+2019-03-03 14:00:30,389 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:30
+2019-03-03 14:00:30,392 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:30
+2019-03-03 14:00:30,573 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:30
+2019-03-03 14:00:30,580 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:30
+2019-03-03 14:00:30,974 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:30
+2019-03-03 14:00:30,974 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:30
+2019-03-03 14:00:31,005 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,005 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,014 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,014 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,023 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,023 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,105 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,105 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,112 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,112 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,120 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,120 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,195 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,195 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,202 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,202 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,210 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,212 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,212 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,258 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,308 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,308 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,309 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,315 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,318 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,319 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,422 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,422 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,423 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,431 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,431 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,437 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,439 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,439 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,573 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,578 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,587 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,606 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,640 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,640 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,690 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,691 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,694 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,704 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,729 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,729 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,840 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,842 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,843 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,846 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,855 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,856 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,859 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,912 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,963 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,964 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,965 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,968 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,975 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,976 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:31
+2019-03-03 14:00:31,977 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:31,979 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:31
+2019-03-03 14:00:32,086 [30] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:32
+2019-03-03 14:00:32,087 [33] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:32
+2019-03-03 14:00:32,089 [30] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:32
+2019-03-03 14:00:32,092 [33] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:32
+2019-03-03 14:00:32,102 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:32
+2019-03-03 14:00:32,103 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:32
+2019-03-03 14:00:32,107 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:32
+2019-03-03 14:00:32,149 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:32
+2019-03-03 14:00:32,199 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:32
+2019-03-03 14:00:32,202 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:32
+2019-03-03 14:00:32,203 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:32
+2019-03-03 14:00:32,205 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:32
+2019-03-03 14:00:32,216 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:32
+2019-03-03 14:00:32,216 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:32
+2019-03-03 14:00:32,271 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:32
+2019-03-03 14:00:32,271 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:32
+2019-03-03 14:00:32,309 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:32
+2019-03-03 14:00:32,309 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:32
+2019-03-03 14:00:32,311 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:32
+2019-03-03 14:00:32,314 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:32
+2019-03-03 14:00:32,330 [14] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 14:00:32,388 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:32
+2019-03-03 14:00:32,389 [16] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 14:00:32,392 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:32
+2019-03-03 14:00:32,400 [14] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 14:00:32,404 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:32
+2019-03-03 14:00:32,408 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:32
+2019-03-03 14:00:32,481 [13] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 14:00:32,482 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 14:00:32
+2019-03-03 14:00:32,488 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 14:00:32
+2019-03-03 14:00:32,491 [16] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 14:00:32,501 [16] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 14:00:32,581 [13] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 14:00:32,593 [14] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 14:00:32,680 [16] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 14:00:32,688 [14] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 14:00:32,697 [13] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 14:00:32,763 [16] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 14:00:32,778 [13] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 14:00:32,857 [16] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 14:00:32,869 [14] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 14:00:32,957 [14] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 14:00:32,967 [13] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 14:00:33,049 [14] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 14:00:33,063 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:33
+2019-03-03 14:00:33,105 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 14:00:33
+2019-03-03 14:00:33,148 [16] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 14:00:33
