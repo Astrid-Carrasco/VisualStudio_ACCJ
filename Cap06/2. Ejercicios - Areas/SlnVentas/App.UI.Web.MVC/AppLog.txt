@@ -1184,3 +1184,275 @@
 2019-03-03 11:09:22,277 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Home, Action: Buscar,Hora de fin: 3/03/2019 11:09:22
 2019-03-03 11:09:25,257 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Home, Action: Buscar,Hora de inicio: 3/03/2019 11:09:25
 2019-03-03 11:09:25,272 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Home, Action: Buscar,Hora de fin: 3/03/2019 11:09:25
+2019-03-03 12:31:48,235 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 12:31:48
+2019-03-03 12:31:48,253 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 12:31:48
+2019-03-03 12:32:09,114 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: registrar,Hora de inicio: 3/03/2019 12:32:09
+2019-03-03 12:32:09,115 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: registrar,Hora de fin: 3/03/2019 12:32:09
+2019-03-03 12:33:34,320 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: registrar,Hora de inicio: 3/03/2019 12:33:34
+2019-03-03 12:33:34,320 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: registrar,Hora de fin: 3/03/2019 12:33:34
+2019-03-03 12:34:30,505 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: registrar,Hora de inicio: 3/03/2019 12:34:30
+2019-03-03 12:34:30,505 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: registrar,Hora de fin: 3/03/2019 12:34:30
+2019-03-03 12:35:04,408 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: registrar,Hora de inicio: 3/03/2019 12:35:04
+2019-03-03 12:35:04,408 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: registrar,Hora de fin: 3/03/2019 12:35:04
+2019-03-03 12:35:05,503 [10] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: registrar,Hora de inicio: 3/03/2019 12:35:05
+2019-03-03 12:35:05,503 [10] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: registrar,Hora de fin: 3/03/2019 12:35:05
+2019-03-03 12:35:17,919 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: registrar,Hora de inicio: 3/03/2019 12:35:17
+2019-03-03 12:35:17,919 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: registrar,Hora de fin: 3/03/2019 12:35:17
+2019-03-03 12:35:19,182 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: registrar,Hora de inicio: 3/03/2019 12:35:19
+2019-03-03 12:35:19,182 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: registrar,Hora de fin: 3/03/2019 12:35:19
+2019-03-03 12:36:14,660 [10] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: registrar,Hora de inicio: 3/03/2019 12:36:14
+2019-03-03 12:36:14,660 [10] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: registrar,Hora de fin: 3/03/2019 12:36:14
+2019-03-03 12:36:33,570 [10] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: registrar,Hora de inicio: 3/03/2019 12:36:33
+2019-03-03 12:36:33,570 [10] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: registrar,Hora de fin: 3/03/2019 12:36:33
+2019-03-03 12:37:52,249 [26] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: registrar,Hora de inicio: 3/03/2019 12:37:52
+2019-03-03 12:37:52,249 [26] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: registrar,Hora de fin: 3/03/2019 12:37:52
+2019-03-03 12:38:08,680 [26] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: registrar,Hora de inicio: 3/03/2019 12:38:08
+2019-03-03 12:38:08,680 [26] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: registrar,Hora de fin: 3/03/2019 12:38:08
+2019-03-03 12:38:21,590 [22] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: registrar,Hora de inicio: 3/03/2019 12:38:21
+2019-03-03 12:38:21,590 [22] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: registrar,Hora de fin: 3/03/2019 12:38:21
+2019-03-03 12:38:37,521 [10] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: registrar,Hora de inicio: 3/03/2019 12:38:37
+2019-03-03 12:38:37,521 [10] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: registrar,Hora de fin: 3/03/2019 12:38:37
+2019-03-03 12:56:51,461 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 12:56:51
+2019-03-03 12:56:51,479 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 12:56:51
+2019-03-03 12:57:10,843 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 12:57:10
+2019-03-03 12:57:11,089 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 12:57:11
+2019-03-03 12:57:11,109 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Home, Action: Index,Hora de inicio: 3/03/2019 12:57:11
+2019-03-03 12:57:11,109 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Home, Action: Index,Hora de fin: 3/03/2019 12:57:11
+2019-03-03 12:57:19,965 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: registrar,Hora de inicio: 3/03/2019 12:57:19
+2019-03-03 12:57:19,965 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: registrar,Hora de fin: 3/03/2019 12:57:19
+2019-03-03 12:57:28,424 [11] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.InvalidOperationException: La solicitud del tipo 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier' o 'http://schemas.microsoft.com/accesscontrolservice/2010/07/claims/identityprovider' no estaba presente en la ClaimsIdentity proporcionada. Para habilitar la compatibilidad del token antifalsificación con la autenticación basada en notificaciones, asegúrese de que el proveedor de notificaciones configurado proporcione ambas notificaciones en las instancias ClaimsIdentity que genera. Si las notificaciones configuradas utilizan un tipo de notificación distinto como identificador único, es posible configurarlas estableciendo la propiedad estática AntiForgeryConfig.UniqueClaimTypeIdentifier.
+   en System.Web.Helpers.AntiXsrf.ClaimUidExtractor.GetUniqueIdentifierParameters(ClaimsIdentity claimsIdentity, String uniqueClaimTypeIdentifier)
+   en System.Web.Helpers.AntiXsrf.ClaimUidExtractor.ExtractClaimUid(IIdentity identity)
+   en System.Web.Helpers.AntiXsrf.TokenValidator.GenerateFormToken(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken cookieToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.GetTokens(HttpContextBase httpContext, AntiForgeryToken oldCookieToken, AntiForgeryToken& newCookieToken, AntiForgeryToken& formToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.GetFormInputElement(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.GetHtml()
+   en System.Web.Mvc.HtmlHelper.AntiForgeryToken()
+   en ASP._Page_Views_comentario_Registrar_cshtml.Execute() en C:\WebVisualStudio2017\VisualStudio_ACCJ\Cap06\2. Ejercicios - Areas\SlnVentas\App.UI.Web.MVC\Views\comentario\Registrar.cshtml:línea 11
+   en System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   en System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   en System.Web.WebPages.StartPage.RunPage()
+   en System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   en System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   en System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2019-03-03 12:57:58,969 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: registrar,Hora de inicio: 3/03/2019 12:57:58
+2019-03-03 12:57:58,969 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: registrar,Hora de fin: 3/03/2019 12:57:58
+2019-03-03 12:58:24,142 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 12:58:24
+2019-03-03 12:58:24,163 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 12:58:24
+2019-03-03 13:00:06,205 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:00:06
+2019-03-03 13:00:17,161 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:00:17
+2019-03-03 13:05:19,554 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:05:19
+2019-03-03 13:05:19,572 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:05:19
+2019-03-03 13:05:29,070 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: registrar,Hora de inicio: 3/03/2019 13:05:29
+2019-03-03 13:05:29,071 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: registrar,Hora de fin: 3/03/2019 13:05:29
+2019-03-03 13:06:13,752 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: registrar,Hora de inicio: 3/03/2019 13:06:13
+2019-03-03 13:06:16,154 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: registrar,Hora de fin: 3/03/2019 13:06:16
+2019-03-03 13:06:21,541 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:06:21
+2019-03-03 13:06:21,541 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:06:21
+2019-03-03 13:07:09,924 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:07:09
+2019-03-03 13:07:09,941 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:07:09
+2019-03-03 13:07:43,799 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: index,Hora de inicio: 3/03/2019 13:07:43
+2019-03-03 13:07:44,023 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: index,Hora de fin: 3/03/2019 13:07:44
+2019-03-03 13:07:44,346 [11] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.InvalidOperationException: El elemento de modelo pasado al diccionario es de tipo 'System.Collections.Generic.List`1[App.Entities.Base.Comentario]', pero este diccionario requiere un elemento de modelo de tipo 'System.Collections.Generic.IEnumerable`1[App.UI.Web.MVC.Models.ViewModels.ComentarioViewModel]'.
+   en System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+   en System.Web.Mvc.ViewDataDictionary..ctor(ViewDataDictionary dictionary)
+   en System.Web.Mvc.WebViewPage`1.SetViewData(ViewDataDictionary viewData)
+   en System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2019-03-03 13:13:50,382 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:13:50
+2019-03-03 13:13:50,401 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:13:50
+2019-03-03 13:13:53,482 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:13:53
+2019-03-03 13:13:53,702 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:13:53
+2019-03-03 13:13:53,951 [11] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.InvalidOperationException: El elemento de modelo pasado al diccionario es de tipo 'System.Collections.Generic.List`1[App.Entities.Base.Comentario]', pero este diccionario requiere un elemento de modelo de tipo 'System.Collections.Generic.IEnumerable`1[App.UI.Web.MVC.Models.ViewModels.ComentarioViewModel]'.
+   en System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+   en System.Web.Mvc.ViewDataDictionary..ctor(ViewDataDictionary dictionary)
+   en System.Web.Mvc.WebViewPage`1.SetViewData(ViewDataDictionary viewData)
+   en System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2019-03-03 13:17:12,706 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:17:12
+2019-03-03 13:17:12,725 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:17:12
+2019-03-03 13:17:25,362 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: index,Hora de inicio: 3/03/2019 13:17:25
+2019-03-03 13:17:29,399 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: index,Hora de fin: 3/03/2019 13:17:29
+2019-03-03 13:17:29,423 [13] ERROR App.UI.Web.MVC.Filters.HandleCustomError AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+====================================================================================================================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+List`1 -> ComentarioViewModel (Destination member list)
+System.Collections.Generic.List`1[[App.Entities.Base.Comentario, App.Entities.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> App.UI.Web.MVC.Models.ViewModels.ComentarioViewModel (Destination member list)
+
+Unmapped properties:
+ComentarioID
+Nombres
+Apellidos
+Correo
+Opinion
+
+   en AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps) en C:\projects\automapper\src\AutoMapper\ConfigurationValidator.cs:línea 28
+   en AutoMapper.MapperConfiguration.AssertConfigurationIsValid(TypeMap typeMap) en C:\projects\automapper\src\AutoMapper\MapperConfiguration.cs:línea 281
+   en lambda_method(Closure , List`1 , ComentarioViewModel , ResolutionContext )
+   en lambda_method(Closure , Object , Object , ResolutionContext )
+   en AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source) en C:\projects\automapper\src\AutoMapper\Mapper.cs:línea 211
+   en AutoMapper.Mapper.Map[TDestination](Object source) en C:\projects\automapper\src\AutoMapper\Mapper.cs:línea 76
+   en App.UI.Web.MVC.Controllers.Mantenimientos.ComentarioController.Index() en C:\WebVisualStudio2017\VisualStudio_ACCJ\Cap06\2. Ejercicios - Areas\SlnVentas\App.UI.Web.MVC\Controllers\Mantenimientos\ComentarioController.cs:línea 27
+   en lambda_method(Closure , ControllerBase , Object[] )
+   en System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   en System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2019-03-03 13:18:26,238 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:18:26
+2019-03-03 13:18:26,255 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:18:26
+2019-03-03 13:18:35,251 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: index,Hora de inicio: 3/03/2019 13:18:35
+2019-03-03 13:18:35,513 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: index,Hora de fin: 3/03/2019 13:18:35
+2019-03-03 13:20:32,716 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: index,Hora de inicio: 3/03/2019 13:20:32
+2019-03-03 13:20:32,720 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: index,Hora de fin: 3/03/2019 13:20:32
+2019-03-03 13:20:33,200 [11] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.HttpCompileException (0x80004005): C:\WebVisualStudio2017\VisualStudio_ACCJ\Cap06\2. Ejercicios - Areas\SlnVentas\App.UI.Web.MVC\Views\comentario\index.cshtml(46): error CS1660: Cannot convert lambda expression to type 'string' because it is not a delegate type
+   en System.Web.Compilation.AssemblyBuilder.Compile()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2019-03-03 13:20:53,443 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: index,Hora de inicio: 3/03/2019 13:20:53
+2019-03-03 13:20:53,446 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: index,Hora de fin: 3/03/2019 13:20:53
+2019-03-03 13:20:53,818 [11] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.HttpCompileException (0x80004005): C:\WebVisualStudio2017\VisualStudio_ACCJ\Cap06\2. Ejercicios - Areas\SlnVentas\App.UI.Web.MVC\Views\comentario\index.cshtml(46): error CS1660: Cannot convert lambda expression to type 'string' because it is not a delegate type
+   en System.Web.Compilation.AssemblyBuilder.Compile()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2019-03-03 13:20:55,372 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:20:55
+2019-03-03 13:20:55,374 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:20:55
+2019-03-03 13:20:55,375 [11] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.HttpCompileException (0x80004005): C:\WebVisualStudio2017\VisualStudio_ACCJ\Cap06\2. Ejercicios - Areas\SlnVentas\App.UI.Web.MVC\Views\comentario\index.cshtml(46): error CS1660: Cannot convert lambda expression to type 'string' because it is not a delegate type
+   en System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2019-03-03 13:21:10,795 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:21:10
+2019-03-03 13:21:10,797 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:21:10
+2019-03-03 13:21:25,234 [9] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:21:25
+2019-03-03 13:21:25,237 [9] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:21:25
+2019-03-03 13:21:38,970 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:21:38
+2019-03-03 13:21:38,972 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:21:38
+2019-03-03 13:21:42,699 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:21:42
+2019-03-03 13:21:42,699 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:21:42
+2019-03-03 13:21:44,428 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:21:44
+2019-03-03 13:21:44,430 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:21:44
+2019-03-03 13:27:24,586 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:27:24
+2019-03-03 13:27:24,603 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:27:24
+2019-03-03 13:27:33,149 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:27:33
+2019-03-03 13:27:33,378 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:27:33
+2019-03-03 13:27:36,020 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:27:36
+2019-03-03 13:27:36,020 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:27:36
+2019-03-03 13:28:41,261 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:28:41
+2019-03-03 13:28:41,264 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:28:41
+2019-03-03 13:28:43,188 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:28:43
+2019-03-03 13:28:43,188 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:28:43
+2019-03-03 13:29:18,201 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:29:18
+2019-03-03 13:29:18,282 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:29:18
+2019-03-03 13:30:53,750 [15] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:30:53
+2019-03-03 13:30:53,824 [15] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:30:53
+2019-03-03 13:30:54,845 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:30:54
+2019-03-03 13:30:54,899 [17] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:30:54
+2019-03-03 13:31:02,373 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:31:02
+2019-03-03 13:34:10,888 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:34:10
+2019-03-03 13:34:10,907 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:34:10
+2019-03-03 13:34:13,756 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:34:13
+2019-03-03 13:34:13,994 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:34:13
+2019-03-03 13:34:17,859 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:34:17
+2019-03-03 13:34:17,859 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:34:17
+2019-03-03 13:34:23,323 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:34:23
+2019-03-03 13:34:28,349 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:34:28
+2019-03-03 13:34:32,348 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:34:32
+2019-03-03 13:34:32,350 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:34:32
+2019-03-03 13:35:55,615 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:35:55
+2019-03-03 13:35:55,634 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:35:55
+2019-03-03 13:35:58,436 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:35:58
+2019-03-03 13:35:58,651 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:35:58
+2019-03-03 13:36:00,683 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:36:00
+2019-03-03 13:36:00,684 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:36:00
+2019-03-03 13:36:14,815 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:36:14
+2019-03-03 13:36:16,263 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:36:16
+2019-03-03 13:37:47,236 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:37:47
+2019-03-03 13:37:47,256 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:37:47
+2019-03-03 13:37:51,917 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:37:51
+2019-03-03 13:37:52,141 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:37:52
+2019-03-03 13:37:53,373 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:37:53
+2019-03-03 13:37:53,373 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:37:53
