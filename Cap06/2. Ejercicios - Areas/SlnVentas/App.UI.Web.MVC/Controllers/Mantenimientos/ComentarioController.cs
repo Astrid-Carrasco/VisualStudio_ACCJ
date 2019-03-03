@@ -38,6 +38,7 @@ namespace App.UI.Web.MVC.Controllers.Mantenimientos
 
         [AllowAnonymous]
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Registrar(ComentarioViewModel model)
         {
             //Lo convierto a un comentario entidad(pero recibo un view model)

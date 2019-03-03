@@ -1456,3 +1456,37 @@ Opinion
 2019-03-03 13:37:52,141 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:37:52
 2019-03-03 13:37:53,373 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:37:53
 2019-03-03 13:37:53,373 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:37:53
+2019-03-03 13:41:51,871 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:41:51
+2019-03-03 13:41:51,887 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:41:51
+2019-03-03 13:42:33,445 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:42:33
+2019-03-03 13:42:33,677 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:42:33
+2019-03-03 13:42:36,371 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:42:36
+2019-03-03 13:42:36,372 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:42:36
+2019-03-03 13:42:57,990 [11] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): El campo de formulario antifalsificación "__RequestVerificationToken" no está presente.
+   en System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:43:03,932 [11] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): El campo de formulario antifalsificación "__RequestVerificationToken" no está presente.
+   en System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+2019-03-03 13:43:11,818 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 3/03/2019 13:43:11
+2019-03-03 13:43:11,836 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 3/03/2019 13:43:11
+2019-03-03 13:43:13,852 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Index,Hora de inicio: 3/03/2019 13:43:13
+2019-03-03 13:43:14,083 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Index,Hora de fin: 3/03/2019 13:43:14
+2019-03-03 13:43:15,196 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Comentario, Action: Registrar,Hora de inicio: 3/03/2019 13:43:15
+2019-03-03 13:43:15,197 [13] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Comentario, Action: Registrar,Hora de fin: 3/03/2019 13:43:15
+2019-03-03 13:43:40,536 [11] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Web.Mvc.HttpAntiForgeryException (0x80004005): No se pudo descifrar el token antifalsificación. En caso de que esta aplicación esté alojada en una Web Farm o clúster, asegúrese de que todos los equipos ejecuten la misma versión de ASP.NET Web Pages y de que la configuración de <machineKey> especifique claves de validación y cifrado explícitas. AutoGenerate no puede utilizarse en un clúster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenStore.GetFormToken(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   en System.Web.Helpers.AntiForgery.Validate()
+   en System.Web.Mvc.ValidateAntiForgeryTokenAttribute.OnAuthorization(AuthorizationContext filterContext)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
