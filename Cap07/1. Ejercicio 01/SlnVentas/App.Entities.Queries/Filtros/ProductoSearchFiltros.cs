@@ -13,7 +13,7 @@ namespace App.Entities.Queries.Filtros
 
         public decimal Stock { get; set; }
 
-        public int CurrentPage { get; set; }
+        public int PageIndex { get; set; }
 
         public int PageSize { get; set; }
     }

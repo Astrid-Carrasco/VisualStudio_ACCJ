@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "ConsultaProductosStock";
+}
+
+ 
+<div class="ConsultaProductosStock">
+    <input class="Nombre" />
+    <input class="Stock" />
+    <button type="submit" class="Buscar">Buscar</button>
+</div>
+
+ 
+
+<div id="ListaProductos"></div>
+
+@section scriptsAdicionales
+{
+    <script>
+        app.ConsultaProductoStockView.Init();
+    </script>
+
+
+}

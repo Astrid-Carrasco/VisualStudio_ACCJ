@@ -151,12 +151,17 @@ namespace App.UI.Web.MVC.Controllers.Mantenimientos
             return View(model);
         }
 
-        public JsonResult BuscarProductosStock(ProductoSearchFiltros filtros )
+        public JsonResult BuscarProductosStock(ProductoSearchFiltros filtros)
         {
             //var model = productoServices.BuscarProductosStock(new ProductoSearchFiltros() { Nombre = "" , Stock = 1 });
 
             var model = productoServices.BuscarProductosStock(filtros );
             return Json(model, JsonRequestBehavior.AllowGet);
+        }
+
+        public ActionResult ConsultaProductosStock()
+        {
+            return View();
         }
     }
 }

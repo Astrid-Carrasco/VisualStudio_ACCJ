@@ -49,7 +49,7 @@ namespace App.Data.Repository
 
             //Segundo: Finalmente se pagina en el servidores
             //Se toman el primer registro de la pagina seleccionada
-            query = query.Skip(filtros.PageSize * (filtros.CurrentPage - 1));
+            query = query.Skip(filtros.PageSize * (filtros.PageIndex - 1));
             //Tercero: Se toman los registros restantes segun el tamaño de pagina
             query = query.Take(filtros.PageSize);
 
