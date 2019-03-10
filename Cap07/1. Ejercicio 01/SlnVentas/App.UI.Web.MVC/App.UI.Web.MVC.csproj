@@ -881,6 +881,10 @@
       <Project>{621d226c-c7bc-4d71-bfdc-034f369e3420}</Project>
       <Name>App.Entities.Base</Name>
     </ProjectReference>
+    <ProjectReference Include="..\App.Entities.Queries\App.Entities.Queries.csproj">
+      <Project>{4d7a252a-bcf8-4d13-91dd-e2e82f129d84}</Project>
+      <Name>App.Entities.Queries</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

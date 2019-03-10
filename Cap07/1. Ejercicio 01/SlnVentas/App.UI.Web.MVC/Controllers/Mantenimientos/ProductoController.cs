@@ -10,6 +10,8 @@ using App.UI.Web.MVC.ActionFilters;
 using App.UI.Web.MVC.Filters;
 using System.Reflection;
 using App.UI.Web.MVC.Models.ViewModels;
+using App.Domain.Interfaces;
+using App.Entities.Queries.Filtros;
 
 namespace App.UI.Web.MVC.Controllers.Mantenimientos
 {
@@ -17,18 +19,19 @@ namespace App.UI.Web.MVC.Controllers.Mantenimientos
     public class ProductoController : BaseController//Hereda de la clase base base controler para guardar log
     {
          
-        private readonly ProductoService productoServices;
-        private readonly CategoriaService categoriaServices;
-        private readonly MarcaService marcaServices;
-        private readonly UnidadMedidaService unidadMedidaServices;
+        private readonly IProductoService productoServices;
+        private readonly ICategoriaService categoriaServices;
+        private readonly IMarcaService marcaServices;
+        private readonly IUnidadMedidaService unidadMedidaServices;
          
 
-        public ProductoController()
+        public ProductoController( ICategoriaService pCategoriaServices, IMarcaService pMarcaServices, IUnidadMedidaService pUnidadMedidaServices, IProductoService pProductoServices)
         {
-            productoServices = new ProductoService();
-            categoriaServices = new CategoriaService();
-            marcaServices = new MarcaService();
-            unidadMedidaServices = new UnidadMedidaService();
+           
+            categoriaServices = pCategoriaServices;
+            marcaServices = pMarcaServices;
+            unidadMedidaServices = pUnidadMedidaServices;
+            productoServices = pProductoServices;
         }
 
         // GET: Producto//con un string no habria problemas ya que ello soportan nulos int? filterByCategoria, hay que ponerlo en este caso al entero de manera explicita que soporte nulos
@@ -148,5 +151,12 @@ namespace App.UI.Web.MVC.Controllers.Mantenimientos
             return View(model);
         }
 
+        public JsonResult BuscarProductosStock(ProductoSearchFiltros filtros )
+        {
+            //var model = productoServices.BuscarProductosStock(new ProductoSearchFiltros() { Nombre = "" , Stock = 1 });
+
+            var model = productoServices.BuscarProductosStock(filtros );
+            return Json(model, JsonRequestBehavior.AllowGet);
+        }
     }
 }

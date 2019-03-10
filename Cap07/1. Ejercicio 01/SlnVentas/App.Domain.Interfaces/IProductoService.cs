@@ -1,4 +1,6 @@
 ﻿using App.Entities.Base;
+using App.Entities.Queries;
+using App.Entities.Queries.Filtros;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +16,7 @@ namespace App.Domain.Interfaces
         bool Save(Producto entity);
 
         Producto GetById(int id);
+
+        ListaPaginada<ProductoSearch> BuscarProductosStock(ProductoSearchFiltros filtros);
     }
 }
