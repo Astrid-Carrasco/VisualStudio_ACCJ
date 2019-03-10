@@ -2,7 +2,7 @@
     app.ConsultaProductoStockView =
         {
         Init: function () {
-            $(".ConsultaProductosStock.Buscar").on("click",Buscar )
+            $(".ConsultaProductosStock .Buscar").on("click", this.Buscar);
 
                 $("#ListaProductos").jsGrid(
                     {
@@ -16,12 +16,12 @@
                         fields:
                             [
                                 
-                                { name: "ProductoID", type: "text", width: 150 , title: "Producto Id" },
-                                { name: "ProductoCode", type: "text", width: 150, title: "Producto Code" },
-                                { name: "Nombre", type: "text", width: 150, title: "Producto" },
+                                { name: "ProductoID", type: "text", width: 150   },
+                                { name: "ProductoCode", type: "text", width: 150 },
+                                { name: "Nombre", type: "text", width: 150   },
                                 { name: "CategoriaName", type: "text", width: 150, title: "Categoria" },
                                 { name: "MarcaName", type: "text", width: 150, title: "Marca" },
-                                { name: "StockActual", type: "text", width: 150, title: "Stock" },
+                                { name: "StockActual", type: "text", width: 150},
                                 { name: "PrecioMayor", type: "number", width: 150, title: "Precio Mayor" },
                                 { name: "PrecioMenor", type: "number", width: 150, title: "Precio Menor" },
                                
@@ -31,7 +31,7 @@
                                 loadData: function (filter) {
                                  
                                     var d = $.Deferred();//Resultado diferido //promesa de entrega de datos
-
+                                    
                                     $.ajax(
                                         {
                                             url: "/Producto/BuscarProductosStock",
@@ -55,7 +55,19 @@
                             }
                     }
                 );  
-            }
+        },
+
+        Buscar: function () {
+            
+            var filtros =
+                {
+                Nombre: $(".ConsultaProductosStock .Nombre").val(),
+                Stock:  $(".ConsultaProductosStock .Stock").val()
+            };
+
+            var grid = $("#ListaProductos").jsGrid("search", filtros);
+         
+        }
 
         }
 })(window.app = window.app || {});
