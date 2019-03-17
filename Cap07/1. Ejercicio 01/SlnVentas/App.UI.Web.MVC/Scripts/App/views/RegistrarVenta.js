@@ -2,7 +2,7 @@
   
         var me =
             {
-            productoSeleccionado = {},
+            productoSeleccionado: {},
             Init: function () {
                 $("#registrarVenta .btn-buscar-producto").on("click", this.MostrarPopupProductos);
             },
