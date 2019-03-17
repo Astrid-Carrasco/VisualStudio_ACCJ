@@ -25,33 +25,55 @@
             </div>
             <div class="form-group">
                 <label>Precio Producto</label>
-                <input type="text" class="form-control precio-producto" readonly/>
+                <input type="text" class="form-control precio-producto" readonly />
             </div>
             <div class="form-group">
                 <label>Cantidad</label>
-                <input type="text" class="form-control" />
+                <input type="text" class="form-control cantidad-producto" />
             </div>
             <div class="form-group text-center">
-                <button type="button" class="btn btn-success">Agregar</button>
+                <button type="button" class="btn btn-success btn-agregar-producto">Agregar</button>
             </div>
         </form>
 
-        <div>
+        <div class="detalle-venta">
             <!-- Mostrar un listado de lo que se va comprando-->
         </div>
     </div>
 
     <div class="box-footer">
-        <button class="btn-primary">Registrar Venta</button>
+        <button class="btn-primary btn-guardar">Registrar Venta</button>
     </div>
 </div>
 
 
 @Modal.CreateModal("Búsqueda de Productos", "BusquedaProductoPopupID", "app.RegistrarVentaView.MostrarProducto()")
 
-@section scriptsAdicionales{
+@section scriptsAdicionales
+{
+    @*<script src="~/Scripts/mustache.min.js"></script>*@
+
+    <script id="RegistrarVentaDetalle" type="x-tmpl-mustache">
+        <table class="table">
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>SubTotal</th>
+            </tr>
+            {{#Detalle}}
+            <tr>
+                <td>{{Nombre}}</td>
+                <td>{{PrecioMenor}}</td>
+                <td>{{Cantidad}}</td>
+                <td>{{SubTotal}}</td>
+            </tr>
+            {{/Detalle}}
+        </table>
+    </script>
+
     <script>
         app.RegistrarVentaView.Init();
-    </script>   
+    </script>
 }
 

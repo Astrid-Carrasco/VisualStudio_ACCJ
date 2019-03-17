@@ -1,4 +1,5 @@
-﻿using App.UI.Web.MVC.Controllers.Mantenimientos;
+﻿using App.Entities.Base;
+using App.UI.Web.MVC.Controllers.Mantenimientos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,15 @@ namespace App.UI.Web.MVC.Controllers.Movimientos
         public ActionResult Index()
         {
             return View();
+        }
+
+        [HttpPost]
+        public JsonResult Guardar(Venta model )
+        {
+            var result = true;
+
+            //Acceder a la capa de negocio y la capa de datos para registrar la venta
+            return Json(result);
         }
     }
 }
