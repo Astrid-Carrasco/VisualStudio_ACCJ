@@ -33,18 +33,32 @@
             var json = localStorage.getItem(keyStorage);
             return JSON.parse(json);
         },
-        showModal: function (containerId, url) {
+        showModal: function (containerId, url, closeFunction) {
             $("#" + containerId).modal("show");
             //Invocando a la vista utilizando AJAX
             //url -> Categoria/Create
             $.get(url, function (html) {
                 $("#" + containerId + " .modal-body").html(html);
-                $("#" + containerId).modal("show");
+                $("#" + containerId).modal("show"); 
+                if (closeFunction !== undefined) {
+                    //asociarle a nuestro contenedor el evento cuando se ciere
+                    $("#" + containerId).on("hidden.bs.modal",  closeFunction );
+                }             
+
             });
         },
-        closeModal: function (modalId) {
+        closeModal: function (modalId, state) {
+            //$("button[data-dismiss='modal']").click()
+
+            //$("#" + modalId).modal("hide");
+            if (state !== undefined)//no tiene valor ni nulo ni vacio
+            {        
+                debugger;
+                this.stateModal = state;
+            }
             $("#" + modalId).modal("hide");
-        }
+        },
+        stateModal: {}
 
 
 

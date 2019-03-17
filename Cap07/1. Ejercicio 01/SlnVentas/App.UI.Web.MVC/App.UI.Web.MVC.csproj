@@ -197,6 +197,7 @@
     <Compile Include="Common\SecurityHelpers.cs" />
     <Compile Include="Controllers\Mantenimientos\BaseController.cs" />
     <Compile Include="Controllers\Mantenimientos\ComentarioController.cs" />
+    <Compile Include="Controllers\Movimientos\VentaController.cs" />
     <Compile Include="Controllers\SeguridadController.cs" />
     <Compile Include="CustomHtmlHelpers\CommonHelpers.cs" />
     <Compile Include="Filters\HandleCustomError.cs" />
@@ -777,7 +778,7 @@
     <Content Include="Scripts\App\common\helpers.js" />
     <Content Include="Scripts\App\views\CategoriaView.js" />
     <Content Include="Scripts\App\views\ConsultaProductoStockView.js" />
-    <Content Include="Scripts\App\views\RegistrarVentaView.js" />
+    <Content Include="Scripts\App\views\RegistrarVenta.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -871,7 +872,7 @@
     <Content Include="Views\Comentario\Registrar.cshtml" />
     <Content Include="Views\Comentario\Index.cshtml" />
     <Content Include="Views\Producto\ConsultaProductosStock.cshtml" />
-    <Content Include="Views\Producto\RegistrarVenta.cshtml" />
+    <Content Include="Views\Venta\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

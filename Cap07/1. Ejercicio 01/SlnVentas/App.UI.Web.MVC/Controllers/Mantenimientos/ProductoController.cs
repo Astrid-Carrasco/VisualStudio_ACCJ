@@ -161,17 +161,8 @@ namespace App.UI.Web.MVC.Controllers.Mantenimientos
 
         public ActionResult ConsultaProductosStock()
         {
-            return View();
+            return PartialView();
         }
-
-        public ActionResult RegistrarVenta()
-        {
-           
-            ViewBag.Productos = productoServices.GetAll("",0,0);
-          
-
-            var model = productoServices.GetAll("",0,0);
-            return View(model);
-        }
+ 
     }
 }
