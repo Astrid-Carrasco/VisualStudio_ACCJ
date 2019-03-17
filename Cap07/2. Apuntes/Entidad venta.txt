@@ -1,0 +1,13 @@
+CategoriaName: "Utensilios"
+MarcaName: "Thomson"
+Nombre: "Juego de almohadas"
+PrecioMayor: 70
+ProductoCode: "00-16"
+StockActual: 10
+
+
+
+ProductoID: 16
+PrecioMenor: 100
+Cantidad:
+SubTotal:
