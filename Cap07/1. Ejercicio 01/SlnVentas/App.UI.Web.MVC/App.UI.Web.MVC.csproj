@@ -777,6 +777,7 @@
     <Content Include="Scripts\App\common\helpers.js" />
     <Content Include="Scripts\App\views\CategoriaView.js" />
     <Content Include="Scripts\App\views\ConsultaProductoStockView.js" />
+    <Content Include="Scripts\App\views\RegistrarVentaView.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -870,6 +871,7 @@
     <Content Include="Views\Comentario\Registrar.cshtml" />
     <Content Include="Views\Comentario\Index.cshtml" />
     <Content Include="Views\Producto\ConsultaProductosStock.cshtml" />
+    <Content Include="Views\Producto\RegistrarVenta.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

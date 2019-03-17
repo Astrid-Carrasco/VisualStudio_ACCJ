@@ -2582,3 +2582,43 @@ Nombre del parámetro: parameters
 2019-03-10 13:58:14,995 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Producto, Action: BuscarProductosStock,Hora de fin: 10/03/2019 13:58:14
 2019-03-10 13:58:27,776 [23] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Producto, Action: BuscarProductosStock,Hora de inicio: 10/03/2019 13:58:27
 2019-03-10 13:58:29,611 [23] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Producto, Action: BuscarProductosStock,Hora de fin: 10/03/2019 13:58:29
+2019-03-17 02:25:59,272 [6] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 17/03/2019 02:25:59 a.m.
+2019-03-17 02:25:59,357 [6] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 17/03/2019 02:25:59 a.m.
+2019-03-17 02:29:13,073 [7] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 17/03/2019 02:29:13 a.m.
+2019-03-17 02:29:26,184 [7] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 17/03/2019 02:29:26 a.m.
+2019-03-17 02:29:26,782 [20] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Home, Action: Index,Hora de inicio: 17/03/2019 02:29:26 a.m.
+2019-03-17 02:29:26,783 [20] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Home, Action: Index,Hora de fin: 17/03/2019 02:29:26 a.m.
+2019-03-17 02:29:49,241 [32] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Categoria, Action: Index,Hora de inicio: 17/03/2019 02:29:49 a.m.
+2019-03-17 02:29:49,242 [32] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Categoria, Action: Index,Hora de fin: 17/03/2019 02:29:49 a.m.
+2019-03-17 02:29:51,355 [32] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Categoria, Action: Buscar,Hora de inicio: 17/03/2019 02:29:51 a.m.
+2019-03-17 02:29:52,460 [32] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Categoria, Action: Buscar,Hora de fin: 17/03/2019 02:29:52 a.m.
+2019-03-17 02:29:55,933 [33] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Producto, Action: Index2,Hora de inicio: 17/03/2019 02:29:55 a.m.
+2019-03-17 02:29:56,428 [33] ERROR App.UI.Web.MVC.Controllers.Mantenimientos.BaseController System.Exception: Lanzando un error simulado
+   en App.UI.Web.MVC.Controllers.Mantenimientos.ProductoController.Index2(String filterByName, Nullable`1 filterByCategoria, Nullable`1 filterByMarca) en C:\Users\ASTRID\Documents\GitHub\VisualStudio_ACCJ\Cap07\1. Ejercicio 01\SlnVentas\App.UI.Web.MVC\Controllers\Mantenimientos\ProductoController.cs:línea 60
+2019-03-17 02:29:56,430 [33] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Producto, Action: Index2,Hora de fin: 17/03/2019 02:29:56 a.m.
+2019-03-17 02:30:02,057 [31] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Producto, Action: Index2Buscar,Hora de inicio: 17/03/2019 02:30:02 a.m.
+2019-03-17 02:30:07,490 [31] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Producto, Action: Index2Buscar,Hora de fin: 17/03/2019 02:30:07 a.m.
+2019-03-17 02:37:29,231 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Home, Action: Index,Hora de inicio: 17/03/2019 02:37:29 a.m.
+2019-03-17 02:37:29,263 [11] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Home, Action: Index,Hora de fin: 17/03/2019 02:37:29 a.m.
+2019-03-17 04:43:38,940 [7] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 17/03/2019 04:43:38 a.m.
+2019-03-17 04:43:39,034 [7] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 17/03/2019 04:43:39 a.m.
+2019-03-17 06:06:39,749 [153] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 17/03/2019 06:06:39 a.m.
+2019-03-17 06:06:48,672 [153] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 17/03/2019 06:06:48 a.m.
+2019-03-17 06:06:48,844 [153] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Home, Action: Index,Hora de inicio: 17/03/2019 06:06:48 a.m.
+2019-03-17 06:06:48,844 [153] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Home, Action: Index,Hora de fin: 17/03/2019 06:06:48 a.m.
+2019-03-17 06:07:33,262 [156] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Producto, Action: registrarventa,Hora de inicio: 17/03/2019 06:07:33 a.m.
+2019-03-17 06:07:34,432 [156] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Producto, Action: registrarventa,Hora de fin: 17/03/2019 06:07:34 a.m.
+2019-03-17 06:13:04,793 [173] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Producto, Action: registrarventa,Hora de inicio: 17/03/2019 06:13:04 a.m.
+2019-03-17 06:13:04,902 [173] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Producto, Action: registrarventa,Hora de fin: 17/03/2019 06:13:04 a.m.
+2019-03-17 06:13:08,442 [179] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Producto, Action: registrarventa,Hora de inicio: 17/03/2019 06:13:08 a.m.
+2019-03-17 06:13:08,511 [179] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Producto, Action: registrarventa,Hora de fin: 17/03/2019 06:13:08 a.m.
+2019-03-17 06:49:08,759 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 17/03/2019 06:49:08 a.m.
+2019-03-17 06:49:08,806 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 17/03/2019 06:49:08 a.m.
+2019-03-17 06:50:11,950 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 17/03/2019 06:50:11 a.m.
+2019-03-17 06:50:15,210 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 17/03/2019 06:50:15 a.m.
+2019-03-17 06:50:15,273 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Home, Action: Index,Hora de inicio: 17/03/2019 06:50:15 a.m.
+2019-03-17 06:50:15,273 [12] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Home, Action: Index,Hora de fin: 17/03/2019 06:50:15 a.m.
+2019-03-17 06:50:24,226 [8] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Producto, Action: registrarventa,Hora de inicio: 17/03/2019 06:50:24 a.m.
+2019-03-17 06:50:26,160 [8] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Producto, Action: registrarventa,Hora de fin: 17/03/2019 06:50:26 a.m.
+2019-03-17 06:53:18,433 [21] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Seguridad, Action: Login,Hora de inicio: 17/03/2019 06:53:18 a.m.
+2019-03-17 06:53:18,434 [21] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Seguridad, Action: Login,Hora de fin: 17/03/2019 06:53:18 a.m.
