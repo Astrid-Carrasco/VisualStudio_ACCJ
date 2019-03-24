@@ -28,6 +28,9 @@ namespace App.Data.DataBase
         public virtual DbSet<Usuario> Usuario { get; set; }
         public virtual DbSet<Comentario> Comentario { get; set; }
 
+        public virtual DbSet<Cliente> Cliente { get; set; }
+
+        public virtual DbSet<Venta> Venta { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Categoria>()
@@ -52,6 +55,11 @@ namespace App.Data.DataBase
                 .HasMany(e => e.Producto)
                 .WithRequired(e => e.UnidadMedida)
                 .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Cliente>()
+           .Property(e => e.NombresApellidos)
+           .IsUnicode(false);
+
         }
     }
 }

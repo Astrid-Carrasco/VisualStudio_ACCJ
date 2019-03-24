@@ -12,7 +12,8 @@
         <form>
             <div class="form-group">
                 <label>Cliente</label>
-                <!-- Lista Cliente-->
+
+                @Html.DropDownList("Cliente", new SelectList(ViewBag.Clientes, "ClienteID", "NombresApellidos"), "---Seleccione-", new { @class = "form-control" })
             </div>
             <div class="form-group">
                 <label>Nombre Producto</label>

@@ -19,7 +19,7 @@
                 $("#registrarVenta .nombre-producto").val(me.productoSeleccionado.Nombre);
                 $("#registrarVenta .precio-producto").val(me.productoSeleccionado.PrecioMenor);
                 },
-          AgregarLista: function () {
+            AgregarLista: function () {               
                 me.productoSeleccionado.Precio = me.productoSeleccionado.PrecioMenor; //colocamos la propiedad Precio porque asi lo llamamos en la entidad VentaDetalle
                 me.productoSeleccionado.Cantidad = $("#registrarVenta .cantidad-producto").val();
                 me.productoSeleccionado.SubTotal = me.productoSeleccionado.Cantidad * me.productoSeleccionado.PrecioMenor;
@@ -40,8 +40,9 @@
           Guardar: function () {
               //Haciendo una llamada AJAX para registrar la venta
               //creando propiedades igualitos a la entidad venta
+             
               var venta = {
-                  ClienteID: 1,//recuperar de combito a implementar
+                  ClienteID: $("#registrarVenta #Cliente").val(), //1,//recuperar de combito a implementar
                   VentaDetalle: me.DetalleVenta
               }
               $.post("Venta/Guardar"

@@ -48,6 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppUnitOfWork.cs" />
+    <Compile Include="VentaRepository.cs" />
+    <Compile Include="ClienteRepository.cs" />
     <Compile Include="ComentarioRepository.cs" />
     <Compile Include="UsuarioRepository.cs" />
     <Compile Include="ProductoRepository.cs" />
