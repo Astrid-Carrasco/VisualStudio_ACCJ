@@ -1,0 +1,6 @@
+** SIGNAL R
+Microsoft.AspNet.SignalR (Instalar esto)
+Microsoft.AspNet.SignalR.Core
+Microsoft.AspNet.SignalR.JS  (Instalar esto)
+Microsoft.AspNet.SignalR.SystemWeb
+

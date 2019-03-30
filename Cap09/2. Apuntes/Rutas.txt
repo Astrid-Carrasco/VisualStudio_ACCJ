@@ -1,0 +1,16 @@
+GET
+http://localhost:61476/api/Values
+http://localhost:61476/api/Values/501
+
+POST
+http://localhost:61476/api/Values/501
+
+DELETE 
+http://localhost:61476/api/Values/505
+
+----
+		Categoria
+GET
+http://localhost:61476/api/Categoria
+http://localhost:61476/api/Categoria?nombre=ele
+http://localhost:61476/api/Categoria/9

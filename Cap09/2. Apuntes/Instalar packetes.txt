@@ -1,0 +1,3 @@
+*** Inyeccion por depencia
+Install-Package SimpleInjector
+Install-Package SimpleInjector.Integration.WebApi
