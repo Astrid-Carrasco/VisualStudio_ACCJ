@@ -9,31 +9,31 @@ using System.Threading.Tasks;
 
 namespace App.Domain.Services
 {
-   public class VentaService : IVentaService
+   public class VentaDetalleService : IVentaDetalleService
     {
-        public IEnumerable<Venta> GetAll(string nombre)
+        public IEnumerable<VentaDetalle> GetAll(string nombre)
         {
-            List<Venta> results;
+            List<VentaDetalle> results;
            
 
             using (var unitOfWork = new AppUnitOfWork())
             {
-                results =   unitOfWork.VentaRepository.GetAll().ToList();
+                results =   unitOfWork.VentaDetalleRepository.GetAll().ToList();
             }
             return results;
         }
 
-        public Venta GetById(int id)
+        public VentaDetalle GetById(int id)
         {
-            Venta results;
+            VentaDetalle results;
             using (var unitOfWork = new AppUnitOfWork())
             {
-                results = unitOfWork.VentaRepository.GetBydId(id);
+                results = unitOfWork.VentaDetalleRepository.GetBydId(id);
             }
             return results;
         }
 
-        public bool Save(Venta entity)
+        public bool Save(VentaDetalle entity)
         {
             bool result = false;
             try
@@ -42,13 +42,12 @@ namespace App.Domain.Services
                 {
                     if (entity.VentaID == 0)//Cuando es nuevo regiatro
                     {
-                       
-                        unitOfWork.VentaRepository.Add(entity);
+                        unitOfWork.VentaDetalleRepository.Add(entity);
 
                     }
                     else
                     {
-                        unitOfWork.VentaRepository.Update(entity);
+                        unitOfWork.VentaDetalleRepository.Update(entity);
                 
                     }
                     unitOfWork.Complete();

@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IVentaDetalleServive.cs" />
     <Compile Include="IVentaServive.cs" />
     <Compile Include="IClienteService.cs" />
     <Compile Include="IProductoService.cs" />

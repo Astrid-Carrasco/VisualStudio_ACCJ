@@ -35,6 +35,7 @@ namespace App.Data.Repository
             this.ComentarioRepository = new ComentarioRepository(_context);
             this.ClienteRepository = new ClienteRepository(_context);
             this.VentaRepository = new VentaRepository(_context);
+            this.VentaDetalleRepository = new VentaDetalleRepository(_context);
         }
 
         public ICategoriaRepository CategoriaRepository { get ; set; }
@@ -47,6 +48,8 @@ namespace App.Data.Repository
         public IClienteRepository ClienteRepository { get; set; }
 
         public IVentaRepository VentaRepository { get; set; }
+
+        public IVentaDetalleRepository VentaDetalleRepository { get; set; }
         public int Complete()
         {
             return _context.SaveChanges();

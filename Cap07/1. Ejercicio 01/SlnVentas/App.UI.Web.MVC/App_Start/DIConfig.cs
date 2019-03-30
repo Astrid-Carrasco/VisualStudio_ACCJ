@@ -29,6 +29,8 @@ namespace App.UI.Web.MVC.App_Start
             container.Register<IComentarioService, ComentarioService>();
             container.Register<IClienteService, ClienteService>();
             container.Register<IVentaService, VentaService>();
+            container.Register<IVentaDetalleService, VentaDetalleService>();
+
             //en que entorno se va ejecutar
             container.RegisterMvcControllers(Assembly.GetExecutingAssembly());
             //verificar

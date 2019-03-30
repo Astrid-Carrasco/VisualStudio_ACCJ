@@ -32,6 +32,7 @@ namespace App.UI.Web.MVC.Controllers.Movimientos
         public JsonResult Guardar(Venta model )
         {
             var result = true;
+            model.Fecha = Convert.ToDateTime(DateTime.Now.ToShortDateString());
             var result2 = ventaServices.Save(model);
             //Acceder a la capa de negocio y la capa de datos para registrar la venta
             return Json(result);

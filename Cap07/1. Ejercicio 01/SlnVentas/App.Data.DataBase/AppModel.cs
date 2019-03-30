@@ -31,6 +31,8 @@ namespace App.Data.DataBase
         public virtual DbSet<Cliente> Cliente { get; set; }
 
         public virtual DbSet<Venta> Venta { get; set; }
+
+        public virtual DbSet<VentaDetalle> VentaDetalle { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Categoria>()
@@ -59,6 +61,7 @@ namespace App.Data.DataBase
             modelBuilder.Entity<Cliente>()
            .Property(e => e.NombresApellidos)
            .IsUnicode(false);
+ 
 
         }
     }
