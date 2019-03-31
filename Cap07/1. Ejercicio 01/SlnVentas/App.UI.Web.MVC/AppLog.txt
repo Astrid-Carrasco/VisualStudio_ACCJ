@@ -3262,3 +3262,15 @@ Nombre del parámetro: parameters
 2019-03-30 17:51:55,366 [6] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Producto, Action: BuscarProductosStock,Hora de fin: 30/03/2019 05:51:55 p.m.
 2019-03-30 17:52:03,164 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Venta, Action: Guardar,Hora de inicio: 30/03/2019 05:52:03 p.m.
 2019-03-30 17:52:43,180 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Venta, Action: Guardar,Hora de fin: 30/03/2019 05:52:43 p.m.
+2019-03-30 18:24:42,057 [6] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Home, Action: Index,Hora de inicio: 30/03/2019 06:24:42 p.m.
+2019-03-30 18:24:42,119 [6] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Home, Action: Index,Hora de fin: 30/03/2019 06:24:42 p.m.
+2019-03-30 18:24:49,341 [7] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Venta, Action: Index,Hora de inicio: 30/03/2019 06:24:49 p.m.
+2019-03-30 18:24:52,225 [7] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Venta, Action: Index,Hora de fin: 30/03/2019 06:24:52 p.m.
+2019-03-30 18:24:57,813 [6] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Producto, Action: ConsultaProductosStock,Hora de inicio: 30/03/2019 06:24:57 p.m.
+2019-03-30 18:24:57,813 [6] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Producto, Action: ConsultaProductosStock,Hora de fin: 30/03/2019 06:24:57 p.m.
+2019-03-30 18:24:59,879 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Producto, Action: BuscarProductosStock,Hora de inicio: 30/03/2019 06:24:59 p.m.
+2019-03-30 18:25:00,356 [14] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Producto, Action: BuscarProductosStock,Hora de fin: 30/03/2019 06:25:00 p.m.
+2019-03-30 18:25:03,138 [6] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Producto, Action: BuscarProductosStock,Hora de inicio: 30/03/2019 06:25:03 p.m.
+2019-03-30 18:25:03,204 [6] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Producto, Action: BuscarProductosStock,Hora de fin: 30/03/2019 06:25:03 p.m.
+2019-03-30 18:25:10,593 [7] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Iniciando la ejecución del contralador:  Venta, Action: Guardar,Hora de inicio: 30/03/2019 06:25:10 p.m.
+2019-03-30 18:25:14,575 [7] INFO  App.UI.Web.MVC.ActionFilters.LoggingFilterAttribute Finalizando la ejecución del contralador:  Venta, Action: Guardar,Hora de fin: 30/03/2019 06:25:14 p.m.

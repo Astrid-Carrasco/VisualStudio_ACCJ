@@ -14,5 +14,7 @@ namespace App.Domain.Interfaces
         bool Save(Categoria entity);
 
         Categoria GetById(int id);
+
+        bool Delete(Categoria entity);
     }
 }

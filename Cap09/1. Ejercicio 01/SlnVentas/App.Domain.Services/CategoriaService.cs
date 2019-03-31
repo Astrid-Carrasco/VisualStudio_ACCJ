@@ -66,8 +66,31 @@ namespace App.Domain.Services
             return result;
         }
 
-       
 
+        public bool Delete(Categoria entity)
+        {
+            bool result = false;
+            try
+            {
+                using (var unitOfWork = new AppUnitOfWork())
+                {
+                  
+                  unitOfWork.CategoriaRepository.Remove(entity);
+
+                   
+                    unitOfWork.Complete();
+                }
+
+                result = true;
+            }
+            catch (Exception ex)
+            {
+
+                result = false;
+            }
+
+            return result;
+        }
 
     }
 }

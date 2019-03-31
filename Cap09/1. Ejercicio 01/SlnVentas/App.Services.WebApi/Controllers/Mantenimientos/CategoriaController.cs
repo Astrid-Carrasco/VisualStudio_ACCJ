@@ -49,7 +49,10 @@ namespace App.Services.WebApi.Controllers.Mantenimientos
         public bool Delete(int id)
         {
             //Implementar delete
-            var result = true;
+            Categoria model = new Categoria();
+            model.CategoriaID = id;
+
+            var result = this.categoriaService.Delete(model);
             return result;
         }
     }
